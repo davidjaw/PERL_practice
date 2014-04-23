@@ -1,3 +1,4 @@
+#!/usr/bin/perl
 my @david = qw/lipton pen foods brain/;
 my @dennis = qw/foods foods foods foods foods foods/;
 my @jason = qw/pen brain purpose/;
