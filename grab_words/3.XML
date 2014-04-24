@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v44-2013-05-16.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.4 2013-05-16" file="US08438664-20130514.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20130524" date-publ="20130514">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08438664</doc-number>
+<kind>B2</kind>
+<date>20130514</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>12862495</doc-number>
+<date>20100824</date>
+</document-id>
+</application-reference>
+<us-application-series-code>12</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>164</us-term-extension>
+<prior-disclosure-affidavit-filed>Patent file contains an affidavit/declaration under 37 CFR 1.130(b).</prior-disclosure-affidavit-filed>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>41</class>
+<subclass>D</subclass>
+<main-group>13</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20130514</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classification-national>
+<country>US</country>
+<main-classification>  2 69</main-classification>
+</classification-national>
+<invention-title id="d2e55">Rapid intervention rescue harness</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2979153</doc-number>
+<kind>A</kind>
+<name>Hoagland et al.</name>
+<date>19610400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182  3</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4449253</doc-number>
+<kind>A</kind>
+<name>Hettinger</name>
+<date>19840500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 93</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4682671</doc-number>
+<kind>A</kind>
+<name>Hengstenberger et al.</name>
+<date>19870700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182  3</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>4854418</doc-number>
+<kind>A</kind>
+<name>Hengstenberger et al.</name>
+<date>19890800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182  3</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>5036548</doc-number>
+<kind>A</kind>
+<name>Grilliot et al.</name>
+<date>19910800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 81</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>5136724</doc-number>
+<kind>A</kind>
+<name>Grilliot et al.</name>
+<date>19920800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 81</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5279386</doc-number>
+<kind>A</kind>
+<name>Cearley</name>
+<date>19940100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182  3</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5289590</doc-number>
+<kind>A</kind>
+<name>Larson</name>
+<date>19940300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2227</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>5297295</doc-number>
+<kind>A</kind>
+<name>Barbeau et al.</name>
+<date>19940300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 96</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>5738046</doc-number>
+<kind>A</kind>
+<name>Williams et al.</name>
+<date>19980400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>119770</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>5787500</doc-number>
+<kind>A</kind>
+<name>Lobello</name>
+<date>19980800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  1</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>5960480</doc-number>
+<kind>A</kind>
+<name>Neustater et al.</name>
+<date>19991000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2456</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>5970517</doc-number>
+<kind>A</kind>
+<name>Jordan</name>
+<date>19991000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>6035440</doc-number>
+<kind>A</kind>
+<name>Woodyard</name>
+<date>20000300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2102</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>6101631</doc-number>
+<kind>A</kind>
+<name>Ferguson, Jr.</name>
+<date>20000800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 94</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>6105169</doc-number>
+<kind>A</kind>
+<name>Colorado</name>
+<date>20000800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 81</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>6205584</doc-number>
+<kind>B1</kind>
+<name>Yocco</name>
+<date>20010300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>6244379</doc-number>
+<kind>B1</kind>
+<name>Larson</name>
+<date>20010600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>182  6</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>6256789</doc-number>
+<kind>B1</kind>
+<name>Young et al.</name>
+<date>20010700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>6421834</doc-number>
+<kind>B2</kind>
+<name>Kester</name>
+<date>20020700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 94</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>6427252</doc-number>
+<kind>B1</kind>
+<name>Lewis et al.</name>
+<date>20020800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2326</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>6490733</doc-number>
+<kind>B1</kind>
+<name>Casaubon</name>
+<date>20021200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 81</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>6658666</doc-number>
+<kind>B2</kind>
+<name>Schweer</name>
+<date>20031200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 94</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>6662372</doc-number>
+<kind>B2</kind>
+<name>Lewis et al.</name>
+<date>20031200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>6668386</doc-number>
+<kind>B2</kind>
+<name>Vidal</name>
+<date>20031200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2100</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>6698026</doc-number>
+<kind>B2</kind>
+<name>Schweer</name>
+<date>20040300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 94</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>6892395</doc-number>
+<kind>B2</kind>
+<name>Schweer</name>
+<date>20050500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 94</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>7779484</doc-number>
+<kind>B2</kind>
+<name>Fee et al.</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 69</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>7971273</doc-number>
+<kind>B2</kind>
+<name>Grilliot et al.</name>
+<date>20110700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 81</main-classification></classification-national>
+</us-citation>
+</us-references-cited>
+<number-of-claims>11</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>  2 69</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 79</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 81</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 94</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2227</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 97</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2456</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2108</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2305</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2310</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>182  3-  7</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244151 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>244143</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>6</number-of-drawing-sheets>
+<number-of-figures>9</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation-in-part>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>11438899</doc-number>
+<date>20060522</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>7779484</doc-number>
+</document-id>
+</parent-grant-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>12862495</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation-in-part>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>60764209</doc-number>
+<date>20060201</date>
+</document-id>
+</us-provisional-application>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>60790742</doc-number>
+<date>20060408</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20110030119</doc-number>
+<kind>A1</kind>
+<date>20110210</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Fee</last-name>
+<first-name>Thomas J.</first-name>
+<address>
+<city>South Hempstead</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Fee</last-name>
+<first-name>Michael P.</first-name>
+<address>
+<city>Northport</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="003" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Haskell</last-name>
+<first-name>Donna M.</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="004" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Haskell</last-name>
+<first-name>Frank</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="005" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Harty</last-name>
+<first-name>Patricia A.</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="006" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Harty</last-name>
+<first-name>Michael P.</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Fee</last-name>
+<first-name>Thomas J.</first-name>
+<address>
+<city>South Hempstead</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Fee</last-name>
+<first-name>Michael P.</first-name>
+<address>
+<city>Northport</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Haskell</last-name>
+<first-name>Donna M.</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="004" designation="us-only">
+<addressbook>
+<last-name>Haskell</last-name>
+<first-name>Frank</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="005" designation="us-only">
+<addressbook>
+<last-name>Harty</last-name>
+<first-name>Patricia A.</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="006" designation="us-only">
+<addressbook>
+<last-name>Harty</last-name>
+<first-name>Michael P.</first-name>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>The Farrrell Law Firm, P.C.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Rescue Equipment Laboratories International, LLC</orgname>
+<role>02</role>
+<address>
+<city>West Islip</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Patel</last-name>
+<first-name>Tejash</first-name>
+<department>3765</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">Rescue harness devices are designed for incorporation into protective coats of firefighter or other types of first responders such that when deployed, the rescue harness forms a closed loop that cinches around an upper torso region under the armpits of an individual donning the protective coat, to thereby positively secure the individual and pull directly on the individual's body.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="76.54mm" wi="155.36mm" file="US08438664-20130514-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="205.99mm" wi="169.93mm" file="US08438664-20130514-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="214.55mm" wi="149.18mm" file="US08438664-20130514-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="215.14mm" wi="203.45mm" file="US08438664-20130514-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="220.30mm" wi="175.85mm" file="US08438664-20130514-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="156.55mm" wi="159.17mm" file="US08438664-20130514-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="206.50mm" wi="174.84mm" file="US08438664-20130514-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">PRIORITY</heading>
+<p id="p-0002" num="0001">This application claims priority to U.S. Provisional Patent Application Ser. No. 60/764,209, filed Feb. 1, 2006, U.S. Provisional Patent Application Ser. No. 60/790,742, filed Apr. 8, 2006, and is a continuation-in-part of U.S. Non-Provisional patent application Ser. No. 11/438,899, filed May 22, 2006, the disclosures of which are incorporated herein by reference.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0003" num="0002">1. Field of the Invention</p>
+<p id="p-0004" num="0003">The present invention relates generally to rescue harness devices that are designed to be incorporated into protective coats of firefighter or other types of first responders and, more specifically, protective coats equipped with integrated rescue harness devices that when deployed, are designed to form a closed harness loop that cinches around an upper torso region under the armpits of an individual donning the protective coat, to thereby positively secure the individual and pull directly on the body.</p>
+<p id="p-0005" num="0004">2. Brief Description of Related Art</p>
+<p id="p-0006" num="0005">Firefighters and other first responders to protect against heat, smoke and other harsh environmental conditions use various types of equipment. For instance, tire fighters typically wear protective, tire retardant coats and pants (turnout gear), etc. In addition, firefighters carry on their back an air tank of a self-contained breathing apparatus (SCBA) attached to a harness. While this protective gear is essential to safety, the protective equipment can make it very difficult to remove an unconscious or otherwise incapacitated firefighter from a building. Indeed, experience has shown that under various emergent circumstances, it is extremely difficult to remove a downed firefighter from a hazardous location unless some particular rescue device is employed to assist in effective and rapid removal.</p>
+<p id="p-0007" num="0006">Recently, consideration has been given to revise the Current National Fire Protection Association (NFPA) standards, in particular, the National Fire Protection Association (NFPA) 1971, to require that a DRD (drag rescue device) be incorporated into turnout coats of firefighters.</p>
+<p id="p-0008" num="0007">In general, a DRD is some form of strap or harness device that is installed in the turnout coat for the purpose of assisting in the removal of a downed firefighter by allowing other firefighters to engage the DRD and drag the downed firefighter to safety.</p>
+<p id="p-0009" num="0008">Various methods for implementing a standard DRD device have been proposed. For instance, some DRD designs have been proposed which are premised on the use of a SCBA harness as a removal mechanism. However, history has proven that during emergency situations, many firefighters actually remove the SCBA and are typically found unconscious without wearing the SCBA. In this regard, during an emergent situation, it can be difficult or virtually impossible for a firefighter to put the SCBA back on the fallen firefighter to thereby deploy the removal device.</p>
+<p id="p-0010" num="0009">Other devices and methods have been proposed for incorporating a rescue harness as part of the protective coat of firefighters. Some rescue harness designs are based on built in harness configurations where the harness straps are attached to the protective gear in such a manner that the protective gear itself is utilized to drag a person when the harness is deployed. These harness designs are not particularly effective as the protective gear is not sufficient to securely maintain an individual that is being dragged. Other harness designs that have been proposed are complex configurations that require a firefighter to manually engage many fasteners and make various adjustments, which can be burdensome. In emergent situations, a firefighter may not have the time or desire to fully or properly engage the rescue harness, rendering the harness ineffective or useless in an emergency situation. Moreover, such complex designs can be bulky and physically restrictive when donning the protective gear.</p>
+<heading id="h-0003" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0011" num="0010">Exemplary embodiments of the invention include rescue harness devices that are incorporated into protective coats of firefighters or other types of first responders. For example, in one exemplary embodiment of the invention, a rescue harness device for use with a coat includes an elongated harness strap having a first end and a second end, and a harness handle coupled to the elongated harness strap. The rescue harness device is adapted to be incorporated inside the coat where the first and second ends of the elongated harness strap are disposed in a front region of the coat to allow an individual donning the coat to readily connect the first and second ends of the elongated harness strap and form a closed harness loop inside the coat, which encircles the upper torso region under the armpits of the individual. The rescue harness device is further adapted to be incorporated inside the coat such that the harness handle is disposed in a back region of the coat and coupled to a portion of the harness strap disposed in the back region of the coat, and such that the harness handle can be accessed through an opening formed in the exterior upper back region of the coat.</p>
+<p id="p-0012" num="0011">In another exemplary embodiment of the invention, a coat equipped with a rescue harness device includes an outer shell, an inner shell, and an opening formed in the outer shell in an upper back region of the coat. The rescue harness device includes an elongated harness strap having a first end and a second end, wherein the elongated strap is disposed between the outer and inner shells with the first and second ends of the elongated strap disposed in a front region of the coat. A connector is included to connect the first and second ends of the harness strap, to form a closed harness loop that encircles an upper torso region under an armpit region of the coat. A harness handle is coupled to the elongated harness strap in the back region of the coat, wherein the harness handle is disposed for access through the opening formed in the outer shell in the upper back region of the coat. The rescue harness device is designed such that when deployed, the closed harness loop cinches around an upper torso region under the armpits of an individual donning the protective coat, to thereby positively secure the individual and pull directly on the body.</p>
+<p id="p-0013" num="0012">These and other exemplary embodiments, aspects, features and advantages, of the present invention will become apparent from the following detailed description of exemplary embodiments, that is to be read in connection with the accompanying drawings.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 1</figref> schematically illustrates a rescue harness device according to an exemplary embodiment of the invention, which is adapted to be incorporated into a coat.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 2</figref> schematically illustrates a rescue harness device according to another exemplary embodiment of the invention, which is adapted to be incorporated into a coat.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIGS. 3A</figref>, <b>3</b>B, <b>3</b>C and <b>3</b>D are various schematic views of a protective coat, which illustrate methods for incorporating the exemplary rescue harness devices of <figref idref="DRAWINGS">FIGS. 1 and 2</figref> into the protective coat, according to exemplary embodiments of the invention.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 4</figref> illustrates a method for using rescue harness devices incorporated in protective coats, according to an exemplary embodiment of the invention.</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIGS. 5A and 5B</figref> are schematic views of a protective coat, which illustrate methods for incorporating the exemplary rescue harness devices of <figref idref="DRAWINGS">FIGS. 1 and 2</figref> into the protective coat according to further exemplary embodiments of the invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION OF PREFERRED EMBODIMENTS</heading>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 1</figref> schematically illustrates a rescue harness device (<b>10</b>) according to an exemplary embodiment of the invention, which is adapted to be incorporated into a <b>20</b> protective coat used by a firefighter or other first responder. In general, the rescue harness device (<b>10</b>) comprises an elongated harness strap (<b>11</b>) having a first end (<b>11</b><i>a</i>) and a second end (<b>11</b><i>b</i>), a harness handle (<b>12</b>), and a connector (<b>13</b>). The connector (<b>13</b>) comprises first and second mating connector elements (<b>13</b><i>a</i>) and (<b>13</b><i>b</i>), wherein the first mating connector element (<b>13</b><i>a</i>) is coupled to the first end (<b>11</b><i>a</i>) of the elongated harness strap (<b>11</b>) and wherein the second mating connector element (<b>13</b><i>b</i>) is coupled to the second end (<b>11</b><i>b</i>) of the elongated harness strap (<b>11</b>).</p>
+<p id="p-0020" num="0019">In one exemplary embodiment of the invention as illustrated in <figref idref="DRAWINGS">FIG. 1</figref>, the connector (<b>13</b>) includes a clip/loop fastener mechanism wherein the first mating connector element (<b>13</b><i>a</i>) is a metallic locking clip (or snap clip) and the second mating connector element (<b>13</b><i>b</i>) is a metallic ring (e.g., D-ring or bull ring).</p>
+<p id="p-0021" num="0020">The harness strap (<b>11</b>) may be formed of any suitable strapping or webbing material that is rated for a desired strength and durability for the intended purposes. For example, in firefighting applications, the harness strap (<b>11</b>) may be a flexible, 1&#x2033;&#x2dc;2&#x2033; tubular webbing that is formed of non-abrading and flame-resistant material using, for example, aramid fibers such as Kevlar&#xae; and Nomex&#xae;. In other exemplary embodiment, the harness strap (<b>11</b>) may be formed of nylon, polyester or other materials that are suitable for the given application.</p>
+<p id="p-0022" num="0021">The harness handle (<b>12</b>) is a metallic ring element (e.g., D-ring) that includes a ring portion (<b>12</b><i>a</i>) and strap receiving portion (<b>12</b><i>b</i>). The ring portion (<b>12</b><i>a</i>) provides means for engaging the harness handle (<b>12</b>) by hand or connecting the harness handle (<b>12</b>) to a safety line device or other equipment. In one embodiment of the invention, the harness strap (<b>11</b>) is looped through the strap receiving portion (<b>12</b><i>b</i>) of the handle (<b>12</b>) such that the handle (<b>12</b>) is slideably engaged with the harness strap (<b>11</b>). In other words, the handle (<b>12</b>) is not fixedly attached at some point along the length of the harness strap (<b>11</b>) but rather the handle (<b>12</b>) can slide along the length of the harness strap (<b>11</b>) as necessary, or the harness strap (<b>11</b>) can readily pass through the opening (<b>12</b><i>b</i>) as necessary. In this manner, the handle (<b>12</b>) does not restrict movement and positioning of the harness strap (<b>11</b>) when the handle (<b>12</b>) is in a stowed position, and allows the handle (<b>12</b>) to self-position at the apex of a closed harness loop formed by the harness strap (<b>11</b>) during deployment of the rescue harness (<b>10</b>) so as to self-equalize the forces in the harness strap (<b>11</b>) and ensure that the entire harness strap remains taut on both side of the handle (<b>12</b>) during deployment. In other embodiments, the handle (<b>12</b>) may be fixedly coupled to a point on the harness strap (<b>11</b>), e.g., at a midpoint between the, first and second ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>).</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 2</figref> schematically illustrates a rescue harness device (<b>10</b>&#x2032;) according to another exemplary embodiment of the invention, which is adapted to be incorporated into a protective coat used by a firefighter or other first responder, for example. The exemplary rescue harness device (<b>10</b>&#x2032;) depicted in <figref idref="DRAWINGS">FIG. 2</figref> is similar to the rescue harness device (<b>10</b>) depicted in <figref idref="DRAWINGS">FIG. 1</figref>, but with an additional elongated strap (<b>14</b>). This embodiment preferably includes the harness strap (<b>11</b>) connected to a first end (<b>14</b><i>a</i>) of the elongated strap (<b>14</b>). The first end (<b>14</b><i>a</i>) can be connected to the harness strap (<b>11</b>) such that it is fixed in position, or preferably, the first end (<b>14</b><i>a</i>) is slidably engaged such that it can articulate along the harness strap (<b>11</b>).</p>
+<p id="p-0024" num="0023">The elongated strap (<b>14</b>) preferably includes a beaded portion (<b>14</b><i>b</i>) having one or more beads to form a harness handle (<b>15</b>). The beaded portion (<b>14</b><i>b</i>) allows for easier grip and avoids the problems associated with loop-type handles that can become tangled or caught on exterior objects during a firefighter's or first responder's use. The beads of the beaded portion (<b>14</b><i>b</i>) are positioned such that the fire fighter(s) or first responder(s) can easily grip the handle with one or two hands to pull the downed fire fighter or first responder to safety.</p>
+<p id="p-0025" num="0024">A further preferred embodiment of the present invention includes the beaded handle (<b>14</b><i>b</i>) located in the front chest region of the firefighter or first responder (not shown), wherein the beaded handle (<b>14</b><i>b</i>) is preferably connected either adjacent to, and attached at least one point, or surrounding the connector (<b>13</b>), and attached at least two points.</p>
+<p id="p-0026" num="0025">The exemplary rescue harness devices (<b>10</b>) and (<b>10</b>&#x2032;) can be readily incorporated into a protective coat in a seamless manner using exemplary methods as described herein below. In general, the exemplary rescue harness devices (<b>10</b>) and (<b>10</b>&#x2032;) are adapted to be fitted on the inside of a protective coat, such that the first and second ends (<b>11</b><i>a</i>) and (<b>11</b><i>b</i>) of the elongated harness strap (<b>11</b>) are disposed in a front region of the coat to allow an individual donning the coat to readily connect the first and second ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) using the connector (<b>13</b>) to form a closed harness loop in the interior of the coat which encircles an upper chest region under the armpits of the individual. Moreover, the rescue harness devices (<b>10</b>) and (<b>10</b>&#x2032;) are adapted to be fitted on the inside of a protective coat, such that the harness handles (<b>12</b>) or (<b>15</b>) are disposed in a back region of the coat, and can be accessed through an opening formed in the exterior upper back region of the coat.</p>
+<p id="p-0027" num="0026">For instance, <figref idref="DRAWINGS">FIGS. 3A</figref>, <b>3</b>B, <b>3</b>C and <b>3</b>D schematically illustrate methods for incorporating the exemplary rescue harness devices (<b>10</b>) and (<b>10</b>&#x2032;) into a protective coat (<b>20</b>) of a firefighter, according to exemplary embodiments of the invention. <figref idref="DRAWINGS">FIGS. 3A and 3B</figref> schematically illustrate a method, which is applicable to both rescue harness (<b>10</b>) and (<b>10</b>&#x2032;) designs, for disposing the harness loops (<b>11</b>) in the interior region of the protective coat (<b>20</b>) with the connectors (<b>13</b><i>a</i>/<b>13</b><i>b</i>) at the ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the harness loops (<b>11</b>) being disposed on the exterior chest region of the coat (<b>20</b>). <figref idref="DRAWINGS">FIGS. 3C and 3D</figref> schematically illustrate methods, which are applicable to respective rescue harness devices (<b>10</b>) and (<b>10</b>&#x2032;), for positioning and fitting the harness loops (<b>11</b>) and harness handles (<b>12</b>) and (<b>15</b>) in the back region of the protective coat (<b>20</b>).</p>
+<p id="p-0028" num="0027">In particular, <figref idref="DRAWINGS">FIG. 3A</figref> is a front schematic view of the protective coat (<b>20</b>) as equipped with either rescue harness device (<b>10</b>) or (<b>10</b>&#x2032;), according to an exemplary embodiment of the invention. <figref idref="DRAWINGS">FIG. 3B</figref> is a cross-sectional schematic view of a front portion of the protective coat in <figref idref="DRAWINGS">FIG. 3A</figref> taken at view line <b>3</b>B-<b>3</b>B at a point on the front portion of the coat (<b>20</b>) where the connecting ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the harness loop (<b>11</b>) with the connectors (<b>13</b><i>a</i>/<b>13</b><i>b</i>) are disposed. In general, the protective coat (<b>20</b>) comprises an outer shell (<b>21</b>) and inner shell (<b>22</b>), which is substantially coextensive with the outer shell (<b>21</b>). The outer and inner shells (<b>21</b>) and (<b>22</b>) can be made of well-known fireproof and insulative materials, respectively, that are commonly used to meet NFPA standards for firefighting applications (although other materials may be used for coats designed for applications other than firefighting).</p>
+<p id="p-0029" num="0028">As illustrated in <figref idref="DRAWINGS">FIGS. 3A and 3B</figref>, the front side of the outer shell (<b>21</b>) includes a left front panel (<b>21</b><i>a</i>) and a right front panel (<b>21</b><i>b</i>) each having an edge (E) that forms an opening in the front side of the coat (<b>20</b>). A plurality of fasteners (not shown) such as snaps or hook and pile fasteners (e.g., Velcro&#xae; strips) can be attached at locations along the edges (E) of the front panels (<b>21</b><i>a</i>) and (<b>21</b><i>b</i>) to close the coat (<b>20</b>). An outer cover flap (<b>23</b>) is attached along one edge thereof to the right front panel (<b>21</b><i>b</i>) of the outer shell (<b>21</b>). The outer cover flap (<b>23</b>) is what is sometimes referred to as a &#x201c;storm flap&#x201d;. The cover flap (<b>23</b>) can be detachably fastened to the left front panel (<b>21</b><i>a</i>) via corresponding loop (<b>24</b>) and hook (<b>25</b>) fasteners (or other fasteners), as is known in the art. The outer cover flap (<b>23</b>) is typically formed of the same material as the outer shell (<b>21</b>).</p>
+<p id="p-0030" num="0029">Further, as illustrated in <figref idref="DRAWINGS">FIG. 3B</figref>, the protective coat (<b>20</b>) includes inner flaps (<b>26</b>) that extend along, and are attached to, respective edges (E) of the front panels (<b>21</b><i>a</i>) and (<b>21</b><i>b</i>) of the outer shell (<b>21</b>). The inner flaps (<b>26</b>) provide means for attaching the inner insulative shell (<b>22</b>) to the outer shell (<b>21</b>) near the front opening of the coat (<b>20</b>). The inner flaps (<b>26</b>) are attached to inner shell (<b>22</b>) using corresponding mating fasteners that extend along the mating edges of the inner shell (<b>22</b>) and the inner flaps (<b>26</b>). For example, the inner shell (<b>22</b>) can be attached to the inner flaps (<b>26</b>) via corresponding snap buttons (<b>27</b>) that are disposed along the mating edges of inner shell (<b>21</b>) and inner flaps (<b>26</b>) (see, also <figref idref="DRAWINGS">FIG. 5A</figref>). In other embodiments, any other suitable attachment means such as zippers, hook/pile fasteners, etc., can be used to attach mating edges of the inner flaps (<b>26</b>) and the inner liner (<b>22</b>).</p>
+<p id="p-0031" num="0030">As generally illustrated in <figref idref="DRAWINGS">FIGS. 3A-3D</figref>, the rescue harness devices (<b>10</b>) and (<b>10</b>&#x2032;) are incorporated in an upper torso region of the coat (<b>20</b>) where, in general, the harness strap (<b>11</b>) is disposed inside the coat (<b>20</b>), preferably between the outer shell (<b>21</b>) and inner shell (<b>22</b>) layers.</p>
+<p id="p-0032" num="0031">As depicted in <figref idref="DRAWINGS">FIGS. 3A and 3B</figref>, the clip (<b>13</b><i>a</i>) and loop (<b>13</b><i>b</i>) fasteners, which are connected to the respective ends (<b>11</b><i>a</i>) and (<b>11</b><i>b</i>) of the harness strap (<b>11</b>), are located on the exterior of the outer shell (<b>21</b>) in the chest regions of respective front panels (<b>21</b><i>a</i>) and (<b>21</b><i>b</i>). The end portions (<b>11</b><i>a</i>) and (<b>11</b><i>b</i>) of the harness strap (<b>11</b>) pass through small slits (or apertures) (<b>30</b>) that are formed through the outer shell (<b>21</b>) layer of respective front panels (<b>21</b><i>a</i>) and (<b>21</b><i>b</i>).</p>
+<p id="p-0033" num="0032">Depending on the desired application, the connecting ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the harness strap (<b>11</b>) may be fixedly attached, removably attached, or completely unattached to the protective coat (<b>20</b>). For example, <figref idref="DRAWINGS">FIG. 3B</figref> illustrates an embodiment where the first and second end portions (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the elongated harness strap (<b>11</b>) are not connected to any portion of the coat, but simply pass through the openings (<b>30</b>) in the outer shell (<b>21</b>). The end portions (<b>11</b><i>a</i>) and (<b>11</b><i>b</i>) of the strap (<b>11</b>) can be removably coupled to the inner or outer surface of the outer shell (<b>21</b>) using, for example, snap buttons, a hook/pile fasteners (Velcro&#xae;), releasable straps, etc, and other suitable fasteners known to those of ordinary skill in the art for securing harness straps in removably secured positions on garments. Such fasteners provide means to maintain the positioning of the strap ends (<b>11</b><i>a</i>) and (<b>11</b><i>b</i>) near the chest region for engagement of the harness devices (<b>10</b>) or (<b>10</b>&#x2032;) when donning the coat, while allowing the rescue harness devices (<b>10</b>) or (<b>10</b>&#x2032;) to be readily removed for replacement or when washing or decontaminating the inner and outer shells (<b>22</b>) and (<b>21</b>).</p>
+<p id="p-0034" num="0033">In other embodiments, the connecting ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the harness strap (<b>11</b>) can be fixedly or removably attached to the outer shell (<b>21</b>) and/or the cover flap (<b>23</b>) such that the first and second mating connector elements (<b>13</b><i>a</i>/<b>13</b><i>b</i>) are adapted to serve as a closure mechanism for closing the coat. For instance, in <figref idref="DRAWINGS">FIG. 3B</figref>, the connector (<b>13</b><i>b</i>) can be secured to the end of the cover flap (<b>23</b>) in place of the loop fastener (<b>24</b>), such that the connector (<b>13</b><i>b</i>) can couple to the mating connector (<b>13</b><i>a</i>) coupled to the outer shell (<b>21</b>) and thereby function as a mechanism for closing the coat (<b>20</b>) similar in function to the corresponding Fasteners (<b>24</b>) and (<b>25</b>) in <figref idref="DRAWINGS">FIG. 3A</figref>.</p>
+<p id="p-0035" num="0034">Reinforcement layers (<b>31</b>) are preferably employed to maintain the integrity of the outer shell (<b>21</b>) in the regions where the slits (<b>30</b>) are formed. For example, the reinforcement layers (<b>31</b>) may comprise patches formed of strong flexible material, such as leather patches, which are stitched on the interior surface of the outer shell (<b>21</b>) as shown in <figref idref="DRAWINGS">FIG. 3B</figref>. In other embodiments, the reinforcement layers (<b>31</b>) may be formed of suitable material to be stitched on the exterior surface of the outer shell (<b>21</b>). Depending on the desired application, the end portions (<b>11</b><i>a</i>, <b>11</b><i>b</i>) of the harness strap (<b>11</b>) and/or the fasteners (<b>13</b><i>a</i>, <b>13</b><i>b</i>) may be fixedly attached to the respective reinforcement devices (<b>31</b>) on the front panels (<b>21</b><i>a</i>), (<b>21</b><i>b</i>).</p>
+<p id="p-0036" num="0035">Furthermore, as illustrated in FIG. <b>3</b>C&#x2032;, the harness handle (<b>12</b>) is disposed on the exterior of the outer shell (<b>21</b>) in the upper back region of the coat (<b>20</b>) just below the neck region. A reinforced slit or aperture (<b>32</b>) is formed in the outer shell (<b>21</b>), which is designed to allow passage of the strap (<b>11</b>) when the harness (<b>10</b>) is deployed, while preventing the handle (<b>12</b>) from passing through to the inside of the outer shell (<b>21</b>). A reinforcement device (<b>33</b>) may be provided to maintain the integrity of the outer shell (<b>21</b>). For example, as noted above, the reinforcement device (<b>33</b>) may comprise strong flexible material such as leather that is stitched on the inside of the outer shell (<b>21</b>). The aperture (<b>32</b>) may be further reinforced with a metallic or otherwise heat resistant material around a perimeter thereof (e.g., oval ring or frame structure) as a means to withstand damage or ripping of the material due to fray and frictional forces from the strap (<b>11</b>) material during deployment of the harness (<b>10</b>).</p>
+<p id="p-0037" num="0036">As depicted in <figref idref="DRAWINGS">FIGS. 3A and 3C</figref>, the harness strap (<b>11</b>) (shown in phantom by dotted lines) of the rescue harness device (<b>10</b>) of <figref idref="DRAWINGS">FIG. 1</figref> is loosely disposed inside the coat (<b>20</b>) between the inner and outer shells (<b>21</b>) and (<b>22</b>). The harness strap (<b>11</b>) extends from the first end portion (<b>11</b><i>a</i>) in the upper chest region of the front left panel (<b>21</b><i>a</i>) down and around the left interior side of the coat (<b>20</b>) under the armpit portion and up the back where the harness strap (<b>11</b>) loops through the strap receiving portion (<b>12</b><i>b</i>) of the handle (<b>12</b>) and then down the back and around the right interior side of the coat (<b>20</b>) under the armpit portion and up to the second end portion (<b>11</b><i>b</i>) in the upper chest region of the right front panel (<b>21</b><i>b</i>). The harness strap (<b>11</b>) is designed to have a suitable length such that when the rescue harness (<b>10</b>) is not deployed, the harness strap (<b>11</b>) has <b>20</b> sufficient slack to fit loosely around the firefighter's torso to allow the individual to move freely and comfortably. The excess slack of the strap (<b>11</b>) can be located down the back inner side of the protective shell (<b>20</b>) such as shown in <figref idref="DRAWINGS">FIG. 3C</figref>.</p>
+<p id="p-0038" num="0037">Similarly, as depicted in <figref idref="DRAWINGS">FIGS. 3A and 3D</figref>, the harness strap (<b>11</b>) (shown in phantom by dotted lines) of the rescue harness device (<b>10</b>&#x2032;) of <figref idref="DRAWINGS">FIG. 2</figref> is loosely disposed inside the coat (<b>20</b>), preferably between the inner/outer shells (<b>22</b>), (<b>21</b>). The harness strap (<b>11</b>) extends from the first end portion (<b>11</b><i>a</i>) in the upper chest region of the front left panel (<b>21</b><i>a</i>) down and around the left interior side of the coat (<b>20</b>) under the armpit portion and around the back where the harness strap (<b>11</b>) connects to the first end (<b>14</b><i>a</i>) of the elongated strap (<b>14</b>) and then back around the right interior side of the coat (<b>20</b>) under the armpit portion and up to the second end portion (<b>11</b><i>b</i>) in the upper chest region of the right front panel (<b>21</b><i>b</i>). The harness strap (<b>11</b>) is designed to have a suitable length such that when the rescue harness (<b>10</b>) is not deployed, the harness strap (<b>11</b>) has sufficient slack to fit loosely around the firefighter's torso to allow the individual to move freely and comfortably. The elongated strap (<b>14</b>) is located down the back inner side of the protective shell (<b>20</b>) such as shown in <figref idref="DRAWINGS">FIG. 3D</figref>.</p>
+<p id="p-0039" num="0038">It is to be appreciated that the rescue harness devices (<b>10</b>) and (<b>10</b>&#x2032;) are incorporated in the protective coat (<b>20</b>) such that when deployed, the harness straps (<b>11</b>) form a closed harness loop that cinches across the chest region and under the armpits and around the back region to positively secure the individual donning the coat and pull directly on the body. <figref idref="DRAWINGS">FIG. 4</figref> illustrates a state in which either rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) is ready to be deployed by pulling the harness handle (<b>12</b>) at the access point located on the outside of the shell (<b>21</b>) on the upper back region below the neck region (rescue harness <b>10</b>&#x2032; not shown). The rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) is deployed by pulling the handle (<b>12</b>) such that the excess slack of the strap (<b>11</b>), (<b>14</b>) is pulled out through the aperture (<b>32</b>) causing the closed harness loop (formed by the harness strap (<b>11</b>) with connected ends (<b>11</b><i>a</i>/<b>11</b><i>a</i>) to tighten around the individual's upper torso under the armpits.</p>
+<p id="p-0040" num="0039">When the rescue harness (<b>10</b>&#x2032;) is deployed by pulling the harness handle (<b>15</b>), the elongated strap (<b>14</b>) extends out from the aperture (<b>32</b>). In this exemplary embodiment, the length of the harness strap (<b>11</b>) and elongated strap (<b>14</b>) can be designed such that when the drag harness device (<b>10</b>&#x2032;) is deployed, the first end (<b>14</b><i>a</i>) of the strap (<b>14</b>) does not extend out, from the aperture (<b>32</b>) at the point where the harness strap (<b>11</b>) is tightly secured around an individual being dragged (or lifted).</p>
+<p id="p-0041" num="0040">In addition, <figref idref="DRAWINGS">FIG. 4</figref> illustrates one way in which the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) can be used by connecting the rescue harness handle (<b>12</b>) to a safety line (<b>40</b>). In this regard, the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) is designed to be readily self-deployable by a firefighter to be used as a self-escape device by connecting to the safety line (<b>40</b>) for vertical lifting. Moreover, the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) can be used to facilitate the quick removal of an unconscious or otherwise injured firefighter from a hazardous location by grabbing and pulling the handle (<b>12</b>) by hand to deploy the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) and drag a downed firefighter to safety. Depending on the application, the types of devices and materials that are used for the harness strap (<b>11</b>), harness handles (<b>12</b>) or (<b>15</b>), and connectors (<b>13</b>) can vary to provide the proper rating for strength, environmental conditions, etc., to support vertical lifting and/or horizontal dragging.</p>
+<p id="p-0042" num="0041">Moreover, as depicted in <figref idref="DRAWINGS">FIG. 4</figref>, for example, the access point of the handle (<b>12</b>) is strategically located to allow easy access to the handle (<b>12</b>) for self-deployment or deployment by another. The harness handle (<b>12</b>) is located in such a manner that deployment and operation is possible while an incapacitated fire fighter is wearing an SCBA (<b>45</b>), as shown in <figref idref="DRAWINGS">FIG. 4</figref>. Access to the handle (<b>12</b>) and operation of the harness device (<b>10</b>) or (<b>10</b>&#x2032;) does not require or cause the SCBA (<b>50</b>) to be removed, as wearing of the SCBA (<b>45</b>) does not interfere with deployment, access or operation of the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;).</p>
+<p id="p-0043" num="0042">In another exemplary embodiment of the invention, a readily removable fire retardant and protective flap can be located on the outer shell (<b>21</b>) to cover the exposed harness handle (<b>12</b>) when the harness is not deployed. For instance, the flap can be made of the same or similar material as the outer shell (<b>21</b>) and fastened in place using Velcro, for instance. A cover flap can be placed over the exposed portion of the access handle (<b>12</b>) or (<b>15</b>) to protect the handle (<b>12</b>) or (<b>15</b>) and exposed portions of the harness strap (<b>11</b>) from harsh environmental conditions and protect against accidental deployment and pulling of the handle (<b>12</b>).</p>
+<p id="p-0044" num="0043">Other exemplary embodiments for integrating the harness devices (<b>10</b>) or (<b>10</b>&#x2032;) in the protective coat (<b>20</b>) will now be discussed with reference to <figref idref="DRAWINGS">FIGS. 5A and 5B</figref>. <figref idref="DRAWINGS">FIG. 5A</figref> is a schematic perspective front view of the protective coat (<b>20</b>) wherein the connecting ends (<b>11</b><i>a</i>, <b>11</b><i>b</i>) of the harness strap (<b>11</b>) extend through apertures (<b>50</b>) formed through inside layers of the coat (<b>20</b>) near the chest region (as opposed to penetrating the outer shell (<b>21</b>) in <figref idref="DRAWINGS">FIG. 3B</figref>, for example). <figref idref="DRAWINGS">FIG. 5B</figref> is a schematic cross-sectional view of the inner and outer shells (<b>22</b>, <b>21</b>) of the coat (<b>20</b>) in the chest region of the coat (<b>20</b>) opening where the connecting ends (<b>11</b><i>a</i>, <b>11</b><i>b</i>) of the harness strap (<b>11</b>) extend from between the inner and outer shells (<b>22</b>, <b>21</b>).</p>
+<p id="p-0045" num="0044">The inner flaps (<b>26</b>) include apertures (<b>50</b>) formed in a chest region of the coat (<b>20</b>). The apertures (<b>50</b>) allow the ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the harness strap (<b>11</b>) with the connectors (<b>13</b><i>a</i>/<b>13</b><i>b</i>) to extend from the cavity region between the outer shell (<b>21</b>) and inner shell (<b>22</b>) such that the ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the harness strap (<b>11</b>) with the connectors (<b>13</b><i>a</i>/<b>13</b><i>b</i>) are disposed inside the coat (<b>20</b>) near the edges (E) of the left and right chest panel regions (<b>21</b><i>a</i>, <b>21</b><i>b</i>) near the front opening of the coat (<b>20</b>).</p>
+<p id="p-0046" num="0045">In one exemplary embodiment, the harness strap (<b>11</b>) is not fixedly attached to the coat (<b>20</b>). Various methods may be used to ensure that the connecting ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the strap (<b>11</b>) are maintained exposed in proper place in the chest region, e.g., that the ends of the strap (<b>11</b>) do not slip through the apertures (<b>50</b>) and into the inner region between the outer shell (<b>21</b>) and inner shell (<b>22</b>).</p>
+<p id="p-0047" num="0046">For instance, in one exemplary embodiment, the inner aperture (<b>50</b>) can be shaped and dimensioned relative to the connector fasteners (<b>13</b><i>a</i>/<b>13</b><i>b</i>) such that the fasteners (<b>13</b><i>a</i>/<b>13</b><i>b</i>) could not easily slip through the inner apertures (<b>50</b>). In one embodiment, when the inner apertures (<b>50</b>) are designed to prohibit passage of the fasteners (<b>13</b><i>a</i>/<b>13</b><i>b</i>), then one or both of the fasteners (<b>13</b><i>a </i>or <b>13</b><i>b</i>) can be removably attached to the respective ends (<b>11</b><i>a</i>, <b>11</b><i>b</i>) of the harness strap (<b>11</b>) using tri-bar-type fasteners, for example, so that the fasteners can be removed and thereby allow the strap ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) to pass through the apertures (<b>50</b>). In another exemplary embodiment, the fasteners (<b>13</b><i>a</i>/<b>13</b><i>b</i>) can be designed to be smaller in one dimension that the size of the apertures (<b>50</b>) such that the fasteners (<b>13</b><i>a</i>/<b>13</b><i>b</i>) can be physically manipulated through the respective apertures (<b>50</b>) when removing the rescue harness device (<b>10</b>) or (<b>10</b>&#x2032;), but yet will not readily pass through the apertures (<b>50</b>) under normal usage of the coat (<b>20</b>).</p>
+<p id="p-0048" num="0047">In other exemplary embodiments of the invention, the connecting ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the harness strap (<b>11</b>) can be maintained in a removably fixed position using Velcro or snap button fasteners, and the like. For instance, as depicted in <figref idref="DRAWINGS">FIG. 5B</figref>, a first portion (<b>51</b>) of a fastener can be attached to the inner flap (<b>26</b>) and a second portion (<b>52</b>) of the fastener can be attached to some point on the exposed connecting end of the strap (<b>11</b>), such that the first and second portions (<b>51</b>/<b>52</b>) can be engaged to store/maintain the exposed ends of the harness strap (<b>11</b>) against the inside of the coat (<b>20</b>), and prevent the connecting ends of the harness strap (<b>11</b>) from slipping through the apertures (<b>50</b>) into the inner cavity between the outer shell (<b>21</b>) and inner shell (<b>22</b>).</p>
+<p id="p-0049" num="0048">In such embodiment, the fasteners (<b>51</b>/<b>52</b>) can be positioned such that the harness fasteners (<b>13</b><i>a</i>/<b>13</b><i>b</i>) can be engaged either with or without detaching the ends of the strap (<b>11</b>) from the inner flap (<b>26</b>). Even when the connecting ends of the strap (<b>11</b>) remain attached to the inner flap (<b>26</b>) (via fasteners (<b>51</b>/<b>52</b>) when the harness (<b>10</b>) is engaged (i.e. the ends (<b>11</b><i>a</i>/<b>11</b><i>b</i>) of the strap (<b>11</b>) are coupled via connector (<b>13</b>)), the fastener portions (<b>51</b>/<b>52</b>) can be designed to decouple from each other due to the pulling force that is exerted when the harness (<b>10</b>) or (<b>10</b>&#x2032;) is deployed, thereby allowing the harness strap (<b>11</b>) to even more freely move and tightly cinch around the torso of the individual.</p>
+<p id="p-0050" num="0049">It is to be understood that the embodiments described above are merely exemplary of general inventive concepts of the invention. The manner in which the rescue harness devices (<b>10</b>) or (<b>10</b>&#x2032;) can be integrated within a protective coat, can vary depending on the intended application, the construction of the coat, and other factors and considerations that one or ordinary skill in the art would readily consider. For instance, in the exemplary embodiment of FIGS. <b>3</b>A/<b>3</b>B, the rescue harness is integrated such that an aperture is formed in a region of the outer shell (<b>21</b>) that is covered by the storm flap (<b>23</b>). In such instance, the aperture (<b>30</b>) in the shell (<b>21</b>) could be covered by the storm flap (<b>23</b>) preventing the external elements from entering through the aperture (<b>30</b>) into the inner space between the inner and outer shells (<b>22</b>) and (<b>21</b>) (although protective patches may be formed over the apertures (<b>30</b>) on the interior surface of the outer shell (<b>21</b>)).</p>
+<p id="p-0051" num="0050">In another embodiment, the fasteners (<b>51</b>/<b>52</b>) in <figref idref="DRAWINGS">FIG. 5B</figref> can be used to attach the harness strap (<b>11</b>) to the inner surface of the shell (<b>21</b>), the inner surface of the flap (<b>26</b>), or the inner shell (<b>22</b>) in the inner space region between the inner and outer shells (<b>22</b>), (<b>21</b>).</p>
+<p id="p-0052" num="0051">It is to be further understood that the exemplary drag rescue harness devices depicted in <figref idref="DRAWINGS">FIGS. 1 and 2</figref> are merely exemplary embodiments and the general inventive concepts of the invention may be embodied in many forms readily envisioned by one of ordinary skill in the art. For instance, instead of using a metallic D ring handle (<b>12</b>), a grab handle can be formed of a loop of strap material as is known in the art. Moreover, rescue harness devices (<b>10</b>) or (<b>10</b>&#x2032;) according to exemplary embodiments of the invention may be designed using various types of fasteners and connectors depending on the intended use and safety requirements.</p>
+<p id="p-0053" num="0052">In exemplary embodiments of the invention as described herein, the harness device (<b>10</b>) is integrated in a manner such that the harness device (<b>10</b>) operates completely or substantially independently of the protective coat and such that when deployed, the harness (<b>10</b>) secures/cinches the firefighter by the upper torso/shoulders and pulls directly on the body, not the protective coat. The exemplary harness frameworks provide cost effective designs that enable ease of integration with existing protective gear with minimal modification. The rescue harnesses (<b>10</b>) or (<b>10</b>&#x2032;) can be integrated into a protective coat without causing discomfort to person using the protective coat. Moreover, by integrating the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) inside the outer protective shell (<b>21</b>), the harness strap material is protected from damage that can result from exposure to the harsh elements of firefighting. Moreover, locating the harness strap (<b>11</b>) between the inner and outer shells (<b>21</b>) and (<b>22</b>) helps to maintain the loose strap in proper position and prevent the strap from being entangled when the coat (<b>20</b>) is being worn.</p>
+<p id="p-0054" num="0053">Moreover, in one exemplary embodiment described above, the invention provides a firefighter with preparedness just by wearing the turnout gear without the need for additional equipment. Indeed, all that is required to engage the rescue harness devices (<b>10</b>), (<b>10</b>&#x2032;) is to Fasten the connectors (<b>13</b><i>a</i>/<b>13</b><i>b</i>), which can be performed as part of the normal procedure when donning the protective coat (<b>20</b>), in instances where the connectors (<b>13</b><i>a</i>/<b>13</b><i>b</i>) are actually used to close the coat (<b>20</b>).</p>
+<p id="p-0055" num="0054">Additionally, the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) can be incorporated into various protective coats not limited to those used by fire fighters and first responders. For example, the rescue harness (<b>10</b>) or (<b>10</b>&#x2032;) can be incorporated into a military coat or uniform, a child safety vest, an electrical or construction worker's vest, or a life preserver.</p>
+<p id="p-0056" num="0055">Although illustrative embodiments of the present invention have been described herein with reference to the accompanying drawings, it is to be understood that the invention is not limited to those precise embodiments, and that various other changes and modifications may be affected therein by one skilled in the art without departing from the scope or spirit of the invention.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A garment incorporating a rescue harness, the garment comprising:
+<claim-text>a harness strap having first and second connectable opposed ends, with the first and second connectable opposed ends being accessible from a front region of the garment by an individual wearing the garment; and</claim-text>
+<claim-text>a harness handle coupled to the harness strap between the first and second connectable opposed ends thereof,</claim-text>
+<claim-text>wherein connection of the first opposed end to the second opposed end of the harness strap forms a harness loop encircling an upper torso region of the individual,</claim-text>
+<claim-text>wherein, when the first opposed end is connected to the second opposed end, the rescue harness is deployed by pulling the harness handle, thereby tightening the harness strap across the upper front chest region, beneath the individual's armpits.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The garment of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first opposed end connects with the second opposed end when the individual closes the garment.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The garment of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein closures for the garment includes clasps, buttons and a zipper.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The garment of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the harness handle includes one or more beads at a distal end thereof.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The garment of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the harness handle is accessible from an upper back region of the garment.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The garment of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the harness handle is accessible from the front region of the garment.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The garment of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the garment is a protective firefighter coat.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The garment of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the garment is a safety vest.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The garment of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the rescue harness is utilized as a child safety harness.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A garment incorporating a rescue harness, the garment comprising:
+<claim-text>a harness strap having first and second connectable opposed ends, with the first and second connectable opposed ends being accessible from a front region of the garment by an individual wearing the garment; and</claim-text>
+<claim-text>a harness handle including a strap receiving portion, wherein the harness handle is coupled to the harness strap between the first and second connectable opposed ends thereof,</claim-text>
+<claim-text>wherein connection of the first opposed end to the second opposed end of the harness strap forms a harness loop encircling an upper torso region of the individual,</claim-text>
+<claim-text>wherein, when the first opposed end is connected to the second opposed end, the rescue harness is deployed by pulling the harness handle, thereby tightening the harness strap across the upper front chest region, beneath the individual's armpits, and</claim-text>
+<claim-text>wherein the harness strap is looped through the strap receiving portion of the handle to allow for slidable engagement of harness handle with the harness strap.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. A garment incorporating a rescue harness, the garment comprising:
+<claim-text>a harness strap having first and second connectable opposed ends, with the first and second connectable opposed ends being accessible from a front region of the garment by an individual wearing the garment; and</claim-text>
+<claim-text>a harness handle coupled to the harness strap between the first and second connectable opposed ends thereof,</claim-text>
+<claim-text>wherein connection of the first opposed end to the second opposed end of the harness strap forms a harness loop encircling an upper torso region of the individual,</claim-text>
+<claim-text>wherein, when the first opposed end is connected to the second opposed end, the rescue harness is deployed by pulling the harness handle, and</claim-text>
+<claim-text>wherein the first and second connectable opposed ends are adapted to serve as a closure mechanism for closing the garment. </claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v44-2013-05-16.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.4 2013-05-16" file="US08438665-20130514.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20130524" date-publ="20130514">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08438665</doc-number>
+<kind>B2</kind>
+<date>20130514</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13195571</doc-number>
+<date>20110801</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>2</us-term-extension>
+<prior-disclosure-affidavit-filed>Patent file contains an affidavit/declaration under 37 CFR 1.130(b).</prior-disclosure-affidavit-filed>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>41</class>
+<subclass>D</subclass>
+<main-group>3</main-group>
+<subgroup>08</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20130514</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classification-national>
+<country>US</country>
+<main-classification>  2 84</main-classification>
+</classification-national>
+<invention-title id="d2e55">Hooded garment with adjustable hood side portions and method of adjusting the same</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2241694</doc-number>
+<kind>A</kind>
+<name>Astrove</name>
+<date>19410500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2547931</doc-number>
+<kind>A</kind>
+<name>De Graza</name>
+<date>19510400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2897510</doc-number>
+<kind>A</kind>
+<name>Forbes-Robinson</name>
+<date>19590800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>3518701</doc-number>
+<kind>A</kind>
+<name>Fekete</name>
+<date>19700700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>5007115</doc-number>
+<kind>A</kind>
+<name>Denbow et al.</name>
+<date>19910400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2208</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>5153945</doc-number>
+<kind>A</kind>
+<name>Kobayashi et al.</name>
+<date>19921000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5351343</doc-number>
+<kind>A</kind>
+<name>Harbison</name>
+<date>19941000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5664259</doc-number>
+<kind>A</kind>
+<name>Budd</name>
+<date>19970900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>5694647</doc-number>
+<kind>A</kind>
+<name>Crickmore</name>
+<date>19971200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>5694648</doc-number>
+<kind>A</kind>
+<name>Nucifora</name>
+<date>19971200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>5790986</doc-number>
+<kind>A</kind>
+<name>Hall</name>
+<date>19980800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>5822800</doc-number>
+<kind>A</kind>
+<name>Anderson</name>
+<date>19981000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2202</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>5832538</doc-number>
+<kind>A</kind>
+<name>Williams</name>
+<date>19981100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>D404186</doc-number>
+<kind>S</kind>
+<name>Bellon</name>
+<date>19990100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>5881389</doc-number>
+<kind>A</kind>
+<name>Fruge</name>
+<date>19990300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>5950241</doc-number>
+<kind>A</kind>
+<name>Gomez</name>
+<date>19990900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>5960478</doc-number>
+<kind>A</kind>
+<name>Sivret et al.</name>
+<date>19991000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2202</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>6370692</doc-number>
+<kind>B1</kind>
+<name>Duyn et al.</name>
+<date>20020400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>6374418</doc-number>
+<kind>B1</kind>
+<name>Rindle</name>
+<date>20020400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2202</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>6463592</doc-number>
+<kind>B1</kind>
+<name>Brooks</name>
+<date>20021000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>6654963</doc-number>
+<kind>B2</kind>
+<name>Fayle et al.</name>
+<date>20031200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>6966072</doc-number>
+<kind>B1</kind>
+<name>Kobayashi</name>
+<date>20051100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>7380286</doc-number>
+<kind>B1</kind>
+<name>Bryant, Sr.</name>
+<date>20080600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>7467422</doc-number>
+<kind>B2</kind>
+<name>Bugarin</name>
+<date>20081200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2202</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>D625081</doc-number>
+<kind>S</kind>
+<name>Oates</name>
+<date>20101000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>2005/0241045</doc-number>
+<kind>A1</kind>
+<name>Tolton</name>
+<date>20051100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>GB</country>
+<doc-number>166432</doc-number>
+<kind>A</kind>
+<date>19210700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>JP</country>
+<doc-number>2000-160412</doc-number>
+<kind>A</kind>
+<date>20000600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>SU</country>
+<doc-number>1660680</doc-number>
+<kind>A1</kind>
+<date>19910700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>14</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>  220911</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  220912</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  220913</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  21756</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  21757</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  21954</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 94</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2202</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 10</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>4</number-of-drawing-sheets>
+<number-of-figures>4</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20130031695</doc-number>
+<kind>A1</kind>
+<date>20130207</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Roemer</last-name>
+<first-name>Colin</first-name>
+<address>
+<city>Apple Valley</city>
+<state>MN</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+<us-applicant sequence="002" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Reichel</last-name>
+<first-name>Peter</first-name>
+<address>
+<city>Nelson</city>
+<state>NH</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Roemer</last-name>
+<first-name>Colin</first-name>
+<address>
+<city>Apple Valley</city>
+<state>MN</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Reichel</last-name>
+<first-name>Peter</first-name>
+<address>
+<city>Nelson</city>
+<state>NH</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Thompson Coburn LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+<agent sequence="02" rep-type="attorney">
+<addressbook>
+<last-name>Smith</last-name>
+<first-name>Clyde L.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Gander Mountain Company</orgname>
+<role>02</role>
+<address>
+<city>St. Paul</city>
+<state>MN</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Patel</last-name>
+<first-name>Tejash</first-name>
+<department>3765</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A garment includes a hood that can be adjusted by its wearer. The hood has opposite side portions and a face opening. The wearer can use the hood's drawstring to scrunch the face opening around the wearer's face with the side portions of the hood covering the wearer's ears. The wearer can also adjust the hood of the garment by folding the side portions of the hood back over a portion of the remainder of the hood in a manner such that the wearer's ears are exposed.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="250.19mm" wi="180.42mm" file="US08438665-20130514-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="259.42mm" wi="187.79mm" file="US08438665-20130514-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="252.73mm" wi="179.32mm" file="US08438665-20130514-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="250.44mm" wi="193.12mm" file="US08438665-20130514-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="186.86mm" wi="173.06mm" file="US08438665-20130514-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">Not Applicable.</p>
+<heading id="h-0002" level="1">STATEMENT REGARDING FEDERALLY SPONSORED RESEARCH OR DEVELOPMENT</heading>
+<p id="p-0003" num="0002">Not Applicable.</p>
+<heading id="h-0003" level="1">APPENDIX</heading>
+<p id="p-0004" num="0003">Not Applicable</p>
+<heading id="h-0004" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0005" num="0004">1. Field of the Invention</p>
+<p id="p-0006" num="0005">This invention pertains to outerwear garments. More particularly, the present invention pertains to a hooded garment comprising a hood having adjustable side portions that allow a wearer to selectively expose and alternatively cover his or her ears while the remainder of the hood remains in place on his or her head.</p>
+<p id="p-0007" num="0006">2. General Background</p>
+<p id="p-0008" num="0007">Garments such as raincoats, jackets, coats, and vests often include attached hoods for shielding the wearer's head from the elements. In some cases, the hood portion can be removed from the remainder of the garment and in other cases the hood is permanently attached to the torso portion of the garment. The hoods themselves often include a drawstring for scrunching the face opening of the hood tightly around the wearer's face. Additionally, hoods are often wind and waterproof so as to shield most of the wearer's head from precipitation and wind.</p>
+<heading id="h-0005" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0009" num="0008">A garment in accordance with the present invention comprises a hood that has side portions that can selectively be extended and alternatively retracted while the remainder of the hood can be utilized in a normal manner. This allows the wearer's ears to be exposed while wearing the hood and prevents the obstruction of the wearer's peripheral view by the hood. Hunters, especially bow hunters, may find this particularly useful in situations where protection from the elements is desired but obstructed senses are not. When greater protection from the elements is favored, the side portions can be extended to cover the wearer's ears.</p>
+<p id="p-0010" num="0009">In one aspect of the invention, a garment is configured to be worn by a wearer and comprises a torso portion and a hood. The torso portion has a neck opening that is adapted and configured to encircle the wearer's neck. The hood has a top portion, a rear portion, and opposite side portions. The top portion of the hood is adapted and configured to at least partially cover the top surface of the wearer's head. The rear portion is attached to the top portion and to the neck opening of the torso portion of the garment. The side portions are attached to the rear portion and the top portion of the hood. Each side portion has a lower margin that is releaseably attachable to the neck opening in a manner allowing the side portion to be adjustable between retracted and extended configurations. Each side portion is attached to the neck portion and is adapted to cover one of the wearer's ears when the side portion is in its extended configuration. Each side portion is detached from the neck portion and folded upward and rearward when the side portion is in its retracted configuration in manner such that the wearer's respective ear can be exposed while the top portion of the hood covers the top surface of the wearer's head and remains attached to the torso portion of the garment via the rear portion of the hood.</p>
+<p id="p-0011" num="0010">In another aspect of the invention, a garment configured to be worn by a wearer comprises a torso portion and a hood. The torso portion has a neck opening that is adapted and configured to encircle the wearer's neck. The neck opening comprises a neck shroud that is configured and adapted to selectively encircle the wearer's neck and lower face. The hood has a top portion, a rear portion, and opposite side portions. The top portion of the hood is adapted and configured to at least partially cover the top surface of the wearer's head. The rear portion is attached to the top portion and to the neck shroud. The side portions are attached to the rear portion and the top portion of the hood. Each side portion is adjustable between retracted and extended configurations. Each side portion is adapted to cover one of the wearer's ears when the side portion is in its extended configuration. Each side portion is folded when the side portion is in its retracted configuration in manner such that the wearer's respective ear can be exposed while the top portion of the hood covers the top surface of the wearer's head and remains attached to the torso portion of the garment via the rear portion of the hood. The neck shroud is adapted and configured to selectively encircle the wearer's neck and lower face when each of the side portions is in its retracted configuration and when each of the side portions is in its retracted configuration.</p>
+<p id="p-0012" num="0011">In yet another aspect of the invention, a method comprises wearing a garment and adjusting the hood of a garment. The garment comprises a torso portion and an attached hood. The hood has opposite side portions and a face opening. The method comprises using a pair of drawstring barrel locks and a drawstring to scrunch the face opening around the wearer's face with the side portions of the hood covering the wearer's ears. The method also comprises adjusting the hood of the garment by folding the side portions of the hood back over a portion of the remainder of the hood and connecting the drawstring barrel locks to each other in a manner such that the wearer's ears are exposed and such that the drawstring barrel locks secure the side portions in said folded configuration.</p>
+<p id="p-0013" num="0012">Further features and advantages of the present invention, as well as the operation of the invention, are described in detail below with reference to the accompanying drawings.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0006" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 1</figref> depicts a perspective view of a preferred embodiment of garment in accordance with the invention being worn by a wearer, and is shown with the face opening of the garment's hood scrunched around the wearer's face and with the side portions of the hood covering the wearer's ears.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 2</figref> depicts the side view of the garment and wearer shown in <figref idref="DRAWINGS">FIG. 1</figref>, and is shown with the side portions of the hood folded over a portion of the remainder of the hood and secured in place in a manner exposing the wearer's ears.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 3</figref> depicts a perspective view of the garment and wearer shown in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, and is shown with the hood removed from the wearer's head and with the neck shroud of the garment folded down and away from the wearer's face.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 4</figref> depicts the pair of drawstring barrel locks attached to the opposite end margins of the drawstring of the garment shown in <figref idref="DRAWINGS">FIGS. 1-3</figref>.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="p-0018" num="0017">Reference numerals in the written specification and in the drawing figures indicate corresponding items.</p>
+<heading id="h-0007" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0019" num="0018">An embodiment of a garment in accordance with the invention is shown in <figref idref="DRAWINGS">FIGS. 1-3</figref>. The garment <b>10</b> is shown being worn by a wearer <b>12</b> and comprises a torso portion <b>14</b> and a hood <b>16</b>. The torso portion <b>14</b> comprises a neck opening <b>18</b> that includes a neck shroud <b>20</b>. A zipper <b>22</b> is provided on the front of the torso portion <b>14</b> that can be partially unzipped in a manner such that the neck shroud <b>20</b> can be folded down like a collar (as depicted in <figref idref="DRAWINGS">FIG. 3</figref>). The neck shroud <b>20</b> is configured such that, when the zipper <b>22</b> is completely zipped, the neck shroud encircles the wearer's <b>12</b> neck and covers the wearer's lower face. A plurality of ventilation holes <b>24</b> are provided in the front of the neck shroud <b>20</b> to make it easier for the wearer <b>12</b> to breathe through his or her mouth when the neck shroud covers the wearer's lower face.</p>
+<p id="p-0020" num="0019">The hood <b>16</b> of the garment <b>10</b> comprises a top portion <b>26</b>, a rear portion <b>28</b>, opposite side portions <b>30</b>, and a bill portion <b>32</b>. The top portion <b>26</b> is adapted and configured to cover the top of the wearer's <b>12</b> head and is attached to the neck shroud <b>20</b> via the rear portion <b>28</b> of the hood <b>16</b> (which is configured and adapted to cover the back of the wearer's head). Each of the side portions <b>30</b> comprises a lower margin <b>34</b> and front margin <b>36</b> and is attached to the top portion <b>26</b> and the rear portion <b>28</b> of the hood <b>16</b>. The lower margin <b>34</b> of each of the side portions <b>30</b> is selectively attachable to the neck shroud <b>20</b>, preferably via a zipper <b>38</b>. The bill portion <b>32</b> of the hood <b>16</b> extends from the front margin <b>40</b> of the top portion <b>26</b> of the hood and is configured and adapted to shield the wearer's <b>12</b> upper face from precipitation and sunlight when the hood is worn.</p>
+<p id="p-0021" num="0020">The hood <b>16</b> also comprises a drawstring <b>42</b>, a drawstring channel <b>44</b>, and a pair of drawstring barrel locks <b>46</b>. The drawstring channel <b>44</b> extends along the front margin <b>40</b> of the top portion <b>26</b> of the hood <b>16</b> and along the front margin <b>36</b> of each of the side portions <b>30</b> of the hood. The drawstring <b>42</b> extends through the drawstring channel and has a pair of opposite end margins <b>48</b>. One of the end margins <b>48</b> of the drawstring <b>42</b> extends out of the drawstring channel <b>44</b> at a location on the front margin <b>36</b> and lower margin <b>34</b> of one of the side portions <b>30</b> of the hood <b>16</b>. The other of the end margins <b>48</b> of the drawstring <b>42</b> extends out of the drawstring channel <b>44</b> at a location on the front margin <b>36</b> and lower margin <b>34</b> of the other of the side portions <b>30</b> of the hood <b>16</b>. The drawstring barrel locks <b>46</b> are attached to and along the end margins <b>48</b> of the drawstring <b>42</b>. Like typical drawstring barrel locks, the drawstring barrel locks <b>46</b> of the hood <b>16</b> can slideably move along the end margins <b>48</b> of the drawstring <b>42</b> when squeezed and lock in place when released, and are too large to pass into the drawstring channel <b>44</b>. The drawstring barrel locks <b>46</b> also comprise connectors <b>50</b> that are configured to releaseably connect the drawstring barrel locks to each other.</p>
+<p id="p-0022" num="0021">In use, the hood <b>16</b> of the garment <b>10</b> can be adjusted to suit the wearer's preferences. During heavy rainfall or in bitter cold or extreme winds, the side portions <b>30</b> of the hood <b>16</b> can be placed in their extended configuration by zipping the lower margin <b>34</b> of each side portion to the neck shroud <b>20</b> of the neck opening <b>18</b> via the zippers <b>38</b> provided on the hood (as shown in <figref idref="DRAWINGS">FIG. 1</figref>). In this configuration, the side portions <b>30</b> of the hood <b>16</b> cover the wearer's <b>12</b> ears. Optionally, the wearer <b>12</b> can also completely zip up the zipper <b>22</b> of the torso portion <b>14</b> of the garment <b>10</b> in manner such that the neck shroud <b>20</b> encircles the wearer's neck and covers the wearer's lower face. Still further, if desired, the wearer <b>12</b> can use the drawstring <b>42</b> to scrunch the face opening (as shown in <figref idref="DRAWINGS">FIG. 1</figref>), which is bound by the front edges of the top portion <b>26</b> and each of the side portions <b>30</b> of the hood <b>16</b> and by the top edge of the front of the neck shroud <b>20</b>. To do this, the wearer squeezes the drawstring barrel locks <b>46</b> and slides them along the drawstring <b>42</b> in a manner increasing the length of the end margins <b>48</b> of the drawstring (thereby scrunching the drawstring channel <b>44</b>). When the wearer <b>12</b> desires greater peripheral vision and hearing, the wearer can simply shorten the end margins <b>48</b> of the drawstring <b>42</b> in a similar, but reverse, manner and then retract the side portions <b>30</b> of the hood <b>16</b>. To retract the side portions <b>30</b> of the hood <b>16</b>, the wearer <b>12</b> unzips the zippers <b>38</b> located on the lower margin <b>34</b> of the side portions and then folds the side portions rearward and upward (as shown in <figref idref="DRAWINGS">FIG. 2</figref>) against portions of the remainder of the hood. To secure the side portions <b>30</b> of the hood <b>16</b> in their retracted configurations, the wearer <b>12</b> can snap the connectors <b>50</b> of the drawstring barrel locks <b>46</b> to each other behind and/or above his or her head in a manner such that the drawstring <b>42</b> prevents the side portions <b>30</b> from flipping back down and forward. This also serves as a means for preventing the end margins <b>48</b> of the drawstring <b>42</b> from flopping around against the wearer's <b>12</b> head. When the side portions <b>30</b> of the hood <b>16</b> in their retracted configuration, the wearer <b>12</b> is still able to utilize the neck shroud <b>20</b> to cover his or her lower face (if he or she desires to do so). It should also be appreciated that, when desired, the wearer <b>12</b> can remove the hood <b>16</b> from his or her head and allow it to drape against his or her back (as shown in <figref idref="DRAWINGS">FIG. 3</figref>).</p>
+<p id="p-0023" num="0022">In view of the foregoing, it should be appreciated that the invention achieves the several advantages over the prior art.</p>
+<p id="p-0024" num="0023">As various modifications could be made in the constructions and methods herein described and illustrated without departing from the scope of the invention, it is intended that all matter contained in the foregoing description or shown in the accompanying drawings shall be interpreted as illustrative rather than limiting. For example, the embodiment of the invention described above is preferably formed out of waterproof material, but other embodiments need not be waterproof. Additionally, the embodiment of the invention described above uses zippers to releasably attach the lower margins of the side portions of the hood to the neck shroud, but alternative attachment devices such as Velcro&#x2122; could be used. Thus, the breadth and scope of the present invention should not be limited by any of the above-described exemplary embodiments, but should be defined only in accordance with the following claims appended hereto and their equivalents.</p>
+<p id="p-0025" num="0024">It should also be understood that when introducing elements of the present invention in the claims or in the above description of exemplary embodiments of the invention, the terms &#x201c;comprising,&#x201d; &#x201c;including,&#x201d; and &#x201c;having&#x201d; are intended to be open-ended and mean that there may be additional elements other than the listed elements. Additionally, the term &#x201c;portion&#x201d; should be construed as meaning some or all of the item or element that it qualifies. Moreover, the use of identifiers such as first, second, and third should not be construed in a manner imposing any relative position or time sequence between limitations. Still further, the order in which the steps of any method claim that follows are presented should not be construed in a manner limiting the order in which such steps must be performed unless such order is necessarily required.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A garment configured to be worn by a wearer, the garment comprising:
+<claim-text>a torso portion, the torso portion having a neck opening that is adapted and configured to encircle the wearer's neck;</claim-text>
+<claim-text>a hood, the hood having a top portion, a rear portion, and opposite side portions, the top portion of the hood being adapted and configured to at least partially cover the top surface of the wearer's head, the rear portion being attached to the top portion and to the neck opening of the torso portion of the garment, the side portions being attached to the rear portion and the top portion of the hood, each side portion having a lower margin that is releaseably attachable to the neck opening in a manner allowing the side portion to be adjustable between retracted and extended configurations, each side portion being attached to the neck opening and adapted to cover one of the wearer's ears when the side portion is in its extended configuration, each side portion being detached from the neck opening and folded upward and rearward when the side portion is in its retracted configuration in manner such that the wearer's respective ear can be exposed while the top portion of the hood covers the top surface of the wearer's head and remains attached to the torso portion of the garment via the rear portion of the hood.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. A garment in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the rear portion of the hood is non-detachable from the neck opening of the torso portion of the garment.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. A garment in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the neck opening of the torso portion of the garment comprises a neck shroud, the neck shroud is configured and adapted to selectively encircle the wearer's neck and lower face.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. A garment in accordance with <claim-ref idref="CLM-00001">claim 1</claim-ref> wherein the hood further comprises a drawstring and a drawstring channel, the top portion and each of the side portions of the hood each comprise a forward margin, the drawstring channel extends along the front margin of each of the side portions and the top portion of the hood, the drawstring extends through the drawstring channel and has a pair of opposite end margins, one of the opposite end margins of the drawstring extends out of the drawstring channel at a location on the front margin and lower margin of one of the side portions of the hood, and the other of the opposite end margins of the drawstring extends out of the drawstring channel at a location on the front margin and lower margin of the other of the side portions of the hood.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. A garment in accordance with <claim-ref idref="CLM-00004">claim 4</claim-ref> wherein the hood comprises a bill portion that extends from the front margin of the top portion of the hood and that is configured and adapted to shield the wearer's upper face from precipitation and sunlight.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. A garment in accordance with <claim-ref idref="CLM-00004">claim 4</claim-ref> wherein the hood further comprises a pair of drawstring barrel locks, each drawstring barrel lock is selectively slideable and lockable along a respective one of the opposite end margins of the drawstring and is too large to pass into the drawstring channel, the drawstring barrel locks are configured and adapted to selectively scrunch the drawstring channel, thereby selectively scrunching the front margin of each of the top portion and side portions of the hood, and the drawstring barrel locks are also adapted and configured to selectively lock and unlock to and from each other such that the drawstring barrel locks can be locked together over the top portion of the hood in manner such that the drawstring secures each of the side portions in its retracted configuration.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. A garment configured to be worn by a wearer, the garment comprising:
+<claim-text>a torso portion, the torso portion having a neck opening that is adapted and configured to encircle the wearer's neck, the neck opening comprising a neck shroud that is configured and adapted to selectively encircle the wearer's neck and lower face;</claim-text>
+<claim-text>a hood, the hood having a top portion, a rear portion, and opposite side portions, the top portion of the hood being adapted and configured to at least partially cover the top surface of the wearer's head, the rear portion being attached to the top portion and to the neck shroud, the side portions being attached to the rear portion and the top portion of the hood, each side portion being adjustable between retracted and extended configurations, each side portion being adapted to cover one of the wearer's ears when the side portion is in its extended configuration, each side portion being folded when the side portion is in its retracted configuration in manner such that the wearer's respective ear can be exposed while the top portion of the hood covers the top surface of the wearer's head and remains attached to the torso portion of the garment via the rear portion of the hood, the neck shroud being adapted and configured to selectively encircle the wearer's neck and lower face when each of the side portions is in its retracted configuration and when each of the side portions is in its retracted configuration.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. A garment in accordance with <claim-ref idref="CLM-00007">claim 7</claim-ref> wherein the rear portion of the hood is non-detachable from the neck shroud.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. A garment in accordance with <claim-ref idref="CLM-00007">claim 7</claim-ref> wherein each of the side portions of the hood are releaseably attachable to the neck shroud when the side portion is in its extended configuration.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. A garment in accordance with <claim-ref idref="CLM-00007">claim 7</claim-ref> wherein the hood further comprises a drawstring and a drawstring channel, the top portion and each of the side portions of the hood each comprise a forward margin, the drawstring channel extends along the front margin of each of the side portions and the top portion of the hood, the drawstring extends through the drawstring channel and has a pair of opposite end margins, one of the opposite end margins of the drawstring extends out of the drawstring channel at a location on the front margin and lower margin of one of the side portions of the hood, and the other of the opposite end margins of the drawstring extends out of the drawstring channel at a location on the front margin and lower margin of the other of the side portions of the hood.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. A garment in accordance with <claim-ref idref="CLM-00010">claim 10</claim-ref> wherein the hood comprises a bill portion that extends from the front margin of the top portion of the hood and that is configured and adapted to shield the wearer's upper face from precipitation and sunlight.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. A garment in accordance with <claim-ref idref="CLM-00010">claim 10</claim-ref> wherein the hood further comprises a pair of drawstring barrel locks, each drawstring barrel lock is selectively slideable and lockable along a respective one of the opposite end margins of the drawstring and is too large to pass into the drawstring channel, the drawstring barrel locks are configured and adapted to selectively scrunch the drawstring channel, thereby selectively scrunching the front margin of each of the top portion and side portions of the hood, and the drawstring barrel locks are also adapted and configured to selectively lock and unlock to and from each other such that the drawstring barrel locks can be locked together over the top portion of the hood in manner such that the drawstring secures each of the side portions in its retracted configuration.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. A method of adjusting a garment, the garment being configured to be worn by a wearer, the method comprises:
+<claim-text>wearing a garment, the garment comprising a torso portion and an attached hood, the torso portion of the garment comprising a neck opening and the hood having opposite side portions and a face opening;</claim-text>
+<claim-text>using a pair of drawstring barrel locks and a drawstring to scrunch the face opening around the wearer's face with the side portions of the hood covering the wearer's ears;</claim-text>
+<claim-text>adjusting the hood of the garment by folding the side portions of the hood back over a portion of the remainder of the hood and connecting the drawstring barrel locks to each other in a manner such that the wearer's ears are exposed and such that the drawstring barrel locks secure the side portions in said folded configurations, the adjusting of the hood comprising detaching a portion of the side portions from the neck opening prior to folding the side portions of the hood back over the portion of the remainder of the hood.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. A method in accordance with <claim-ref idref="CLM-00013">claim 13</claim-ref> wherein the neck opening of torso portion of the garment includes a neck shroud, and the method comprises covering the wearer's lower face with the neck shroud while the side portions of the hood are folded back over a portion of the remainder of the hood. </claim-text>
+</claim>
+</claims>
+</us-patent-grant>

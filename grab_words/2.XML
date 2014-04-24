@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v44-2013-05-16.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.4 2013-05-16" file="US08438663-20130514.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20130524" date-publ="20130514">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>08438663</doc-number>
+<kind>B2</kind>
+<date>20130514</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>13081699</doc-number>
+<date>20110407</date>
+</document-id>
+</application-reference>
+<us-application-series-code>13</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>176</us-term-extension>
+<prior-disclosure-affidavit-filed>Patent file contains an affidavit/declaration under 37 CFR 1.130(b).</prior-disclosure-affidavit-filed>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>61</class>
+<subclass>F</subclass>
+<main-group>9</main-group>
+<subgroup>06</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20130514</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classification-national>
+<country>US</country>
+<main-classification>  2  82</main-classification>
+<further-classification>  2  88</further-classification>
+<further-classification>359815</further-classification>
+</classification-national>
+<invention-title id="d2e55">Face protector lens assembly and method of use</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>2180216</doc-number>
+<kind>A</kind>
+<name>Snodgrass</name>
+<date>19391100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  83</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>2628530</doc-number>
+<kind>A</kind>
+<name>Rabben</name>
+<date>19530200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>351 44</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>2799862</doc-number>
+<kind>A</kind>
+<name>Rowe</name>
+<date>19570700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  9</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>2978709</doc-number>
+<kind>A</kind>
+<name>Floyd</name>
+<date>19610400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  9</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>3112490</doc-number>
+<kind>A</kind>
+<name>Malcom, Jr.</name>
+<date>19631200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  87</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>3415595</doc-number>
+<kind>A</kind>
+<name>Nelson</name>
+<date>19681200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>351 44</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>3756692</doc-number>
+<kind>A</kind>
+<name>Scott</name>
+<date>19730900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>359241</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>3868727</doc-number>
+<kind>A</kind>
+<name>Paschall</name>
+<date>19750300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  85</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>4047249</doc-number>
+<kind>A</kind>
+<name>Booth</name>
+<date>19770900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 10</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>D264891</doc-number>
+<kind>S</kind>
+<name>Rosenius</name>
+<date>19820600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>4707860</doc-number>
+<kind>A</kind>
+<name>Holmstrom</name>
+<date>19871100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  87</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>4774723</doc-number>
+<kind>A</kind>
+<name>Ruck</name>
+<date>19881000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>5191468</doc-number>
+<kind>A</kind>
+<name>Mases</name>
+<date>19930300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>359361</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>5673431</doc-number>
+<kind>A</kind>
+<name>Batty</name>
+<date>19971000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2  9</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>6006366</doc-number>
+<kind>A</kind>
+<name>Vondrak</name>
+<date>19991200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2424</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>6151711</doc-number>
+<kind>A</kind>
+<name>Edwards</name>
+<date>20001100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>D518242</doc-number>
+<kind>S</kind>
+<name>Wright et al.</name>
+<date>20060300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>D522179</doc-number>
+<kind>S</kind>
+<name>Wright et al.</name>
+<date>20060500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>D526094</doc-number>
+<kind>S</kind>
+<name>Chen</name>
+<date>20060800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>D526097</doc-number>
+<kind>S</kind>
+<name>Lilenthal et al.</name>
+<date>20060800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>7168095</doc-number>
+<kind>B2</kind>
+<name>Wright</name>
+<date>20070100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>D539988</doc-number>
+<kind>S</kind>
+<name>Crafoord et al.</name>
+<date>20070400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>D555290</doc-number>
+<kind>S</kind>
+<name>Wright et al.</name>
+<date>20071100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>D557460</doc-number>
+<kind>S</kind>
+<name>Jourde et al.</name>
+<date>20071200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>D558403</doc-number>
+<kind>S</kind>
+<name>Lee et al.</name>
+<date>20071200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>D569557</doc-number>
+<kind>S</kind>
+<name>Cho</name>
+<date>20080500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>D584009</doc-number>
+<kind>S</kind>
+<name>Juhlin</name>
+<date>20081200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>D586051</doc-number>
+<kind>S</kind>
+<name>Martin et al.</name>
+<date>20090200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>D624705</doc-number>
+<kind>S</kind>
+<name>Wright</name>
+<date>20100900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00030">
+<document-id>
+<country>US</country>
+<doc-number>2006/0010572</doc-number>
+<kind>A1</kind>
+<name>Douglas</name>
+<date>20060100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00031">
+<document-id>
+<country>US</country>
+<doc-number>2006/0272067</doc-number>
+<kind>A1</kind>
+<name>Gagnon et al.</name>
+<date>20061200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00032">
+<document-id>
+<country>US</country>
+<doc-number>2007/0192946</doc-number>
+<kind>A1</kind>
+<name>Wright</name>
+<date>20070800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00033">
+<document-id>
+<country>US</country>
+<doc-number>2007/0220649</doc-number>
+<kind>A1</kind>
+<name>Huh</name>
+<date>20070900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00034">
+<document-id>
+<country>US</country>
+<doc-number>2008/0060102</doc-number>
+<kind>A1</kind>
+<name>Matthews et al.</name>
+<date>20080300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<nplcit num="00035">
+<othercit>Notification, International Search Report and Written Opinion dated Aug. 18, 2011 for PCT/US2010/057508.</othercit>
+</nplcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>31</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>  2  81</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  82</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  83</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  84</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  85</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  87</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  88</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 10</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2424</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  7</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  63</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  64</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  65</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  67</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 15</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 12</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2427</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2429</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2434</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2  9</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2430</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2431</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 13</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359809</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359805</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359675</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359815</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359810</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359361</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359350</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359355</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359356</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359357</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>359359</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>22</number-of-drawing-sheets>
+<number-of-figures>22</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation-in-part>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>12950846</doc-number>
+<date>20101119</date>
+</document-id>
+<parent-status>PENDING</parent-status>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>13081699</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation-in-part>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61263765</doc-number>
+<date>20091123</date>
+</document-id>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20110179541</doc-number>
+<kind>A1</kind>
+<date>20110728</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Wright</last-name>
+<first-name>Jerry Dean</first-name>
+<address>
+<city>Pottsboro</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Wright</last-name>
+<first-name>Jerry Dean</first-name>
+<address>
+<city>Pottsboro</city>
+<state>TX</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<last-name>Beuerle</last-name>
+<first-name>Stephen C.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+<agent sequence="02" rep-type="attorney">
+<addressbook>
+<orgname>Procopio, Cory, Hargreaves &#x26; Savitch LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<examiners>
+<primary-examiner>
+<last-name>Vanatta</last-name>
+<first-name>Amy</first-name>
+<department>3765</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A lens assembly for securing in an opening in a face plate of a face protector has a first, retainer lens of shape and dimensions configured to be secured in the front opening of a face plate and having a curvature substantially matching the curvature of the face plate. A second lens of smaller dimensions is secured behind the first lens to provide a lens-in-a-lens configuration. The lens assembly may be releasably secured in the face plate opening and the second lens is interchangeable with sets of lenses having different properties such as lens shade. The retainer assembly has a back cover and a gasket or spacer between the back cover and second lens to allow second lenses of different depths to be secured in the assembly.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="126.83mm" wi="186.27mm" file="US08438663-20130514-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="168.74mm" wi="164.17mm" file="US08438663-20130514-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="140.97mm" wi="160.61mm" file="US08438663-20130514-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="184.32mm" wi="159.68mm" file="US08438663-20130514-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="153.84mm" wi="129.12mm" file="US08438663-20130514-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="127.51mm" wi="107.19mm" file="US08438663-20130514-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="127.93mm" wi="110.41mm" file="US08438663-20130514-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="154.69mm" wi="126.92mm" file="US08438663-20130514-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="155.19mm" wi="119.21mm" file="US08438663-20130514-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="155.36mm" wi="133.35mm" file="US08438663-20130514-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="166.88mm" wi="163.07mm" file="US08438663-20130514-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="140.97mm" wi="155.11mm" file="US08438663-20130514-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="176.11mm" wi="168.23mm" file="US08438663-20130514-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00013" num="00013">
+<img id="EMI-D00013" he="178.82mm" wi="156.89mm" file="US08438663-20130514-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00014" num="00014">
+<img id="EMI-D00014" he="199.90mm" wi="160.87mm" file="US08438663-20130514-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00015" num="00015">
+<img id="EMI-D00015" he="166.29mm" wi="153.16mm" file="US08438663-20130514-D00015.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00016" num="00016">
+<img id="EMI-D00016" he="199.56mm" wi="154.86mm" file="US08438663-20130514-D00016.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00017" num="00017">
+<img id="EMI-D00017" he="203.54mm" wi="162.05mm" file="US08438663-20130514-D00017.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00018" num="00018">
+<img id="EMI-D00018" he="186.86mm" wi="141.05mm" orientation="landscape" file="US08438663-20130514-D00018.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00019" num="00019">
+<img id="EMI-D00019" he="155.28mm" wi="159.00mm" file="US08438663-20130514-D00019.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00020" num="00020">
+<img id="EMI-D00020" he="93.22mm" wi="161.88mm" file="US08438663-20130514-D00020.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00021" num="00021">
+<img id="EMI-D00021" he="98.98mm" wi="133.35mm" file="US08438663-20130514-D00021.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00022" num="00022">
+<img id="EMI-D00022" he="148.67mm" wi="159.77mm" file="US08438663-20130514-D00022.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?RELAPP description="Other Patent Relations" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">The present application is a Continuation In Part of co-pending patent application Ser. No. 12/950,846 filed on Nov. 19, 2010, which claims the benefit of co-pending United States provisional pat. App. Ser. No. 61/263,765, filed Nov. 23, 2009, and the contents of each of the aforementioned applications are incorporated herein by reference in their entirety.</p>
+<?RELAPP description="Other Patent Relations" end="tail"?>
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">1. Field of the Invention</p>
+<p id="p-0004" num="0003">The present invention relates, in general, to lenses of face protectors, and, in particular, to lenses of welding masks or helmets.</p>
+<p id="p-0005" num="0004">2. Related Art</p>
+<p id="p-0006" num="0005">Welding helmets or masks are headgear used when performing certain types of welding to protect the eyes, face and neck from flash burn, ultraviolet light, sparks and heat. Welding helmets are necessary to prevent arc eye, a painful condition where the cornea is inflamed. Welding helmets can also prevent retina burns, which can lead to a loss of vision. Both conditions are caused by unprotected exposure to the highly-concentrated UV rays emitted by the welding arc (which can also damage uncovered skin, similar to a sunburn).</p>
+<p id="p-0007" num="0006">All welding helmets include a small window, called a lens, through which the welder looks at the weld. In older helmets, the window can be made of darkly tinted glass, or perhaps a pair of polarized lenses. In more modern helmet designs, transparent material that darkens automatically when exposed to the flare of a welding arc are more common. Either type, however, is susceptible to damages such as cracks that can compromise the protection from ultraviolet rays. In addition to the lens shade, the helmet has a shroud around the face to protect it from hot metal sparks generated by the arc.</p>
+<p id="p-0008" num="0007">The hot metal sparks generated by the arc can ignite flammable objects in the welding area. Because the welding helmets include a small window directly in front of the welder's eyes and have obstructed peripheral vision or even no peripheral vision, a welder may not recognize that the hot metal sparks generated a fire in the area (e.g., to the sides) of the welder. The obstructed peripheral vision also prevents the welder from clearly seeing the future direction of their welding line, and they also may not see potential dangers such as people walking up to them from the side or objects moving or falling into their path.</p>
+<heading id="h-0003" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0009" num="0008">To solve these problems and others, the present invention involves a lens-in-a-lens assembly that protects a users eyes (e.g., during welding), while also allowing peripheral vision.</p>
+<p id="p-0010" num="0009">In one embodiment, a lens assembly for a face plate of a face protector has a first, retainer lens of shape and dimensions configured to be secured in a front opening of the face plate and having a curvature substantially matching the curvature of the face plate, and a second lens of smaller dimensions secured behind the first lens to provide a lens-in-a-lens configuration, with the second lens configured to extend across the eyes of a wearer of the face protector and the first lens extending around the sides of the wearer's face to provide peripheral vision. The lenses may be of tinted glass or may be automatic darkening filter (ADF) lenses which darken automatically when exposed to increased light such as the flare of a welding arc, and one or both lenses may be selected from sets of interchangeable lenses having different shades.</p>
+<p id="p-0011" num="0010">In one embodiment, the second lens may be releasably secured behind the first lens by a retainer assembly having a rear retainer frame and a gasket between the retainer frame and second lens, and the rear retainer frame is secured to the first lens by one ore more releasable fasteners. This allows the second lens to be replaced by second lenses of different properties, while the flexible gasket allows second lenses of different depths to be secured in the assembly.</p>
+<p id="p-0012" num="0011">Other features and advantages of the present invention will become more readily apparent to those of ordinary skill in the art after reviewing the following detailed description and accompanying drawings.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0013" num="0012">The details of the present invention, both as to its structure and operation, may be gleaned in part by study of the accompanying drawings, in which like reference numerals refer to like parts and in which:</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 1</figref> is a front exploded and partially cut-away perspective view of an embodiment of a face protector with an embodiment of a lens assembly shown therein.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 2</figref> is a rear exploded perspective view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIG. 1</figref>.</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 3</figref> is a front perspective view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, with a strap assembly attached to hold the face protector in position on a user's head.</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 4</figref> is a rear perspective view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIGS. 1 to 3</figref>.</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 5</figref> is a bottom plan view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIGS. 1 to 4</figref>.</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 6</figref> is a top plan view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIGS. 1 to 5</figref>.</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 7</figref> is a rear elevational view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIGS. 1 to 6</figref>.</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 8</figref> is a right side elevational view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIGS. 1 to 7</figref>, the left side elevational view being a mirror image thereof.</p>
+<p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 9</figref> is a front elevational view of the face protector and the lens assembly shown in <figref idref="DRAWINGS">FIGS. 1 to 8</figref>, the left side elevational view being a mirror image thereof.</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 10</figref> is a front exploded and partially cut-away perspective view of the face protector of <figref idref="DRAWINGS">FIGS. 1 to 9</figref> but with a modified lens assembly including a spacer gasket;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 11</figref> is a rear exploded perspective view of the face protector and lens assembly of <figref idref="DRAWINGS">FIG. 10</figref>;</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 12</figref> is a rear perspective view of another embodiment of a face protector incorporating another embodiment of a lens assembly;</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 13</figref> is a bottom plan view of the face protector of <figref idref="DRAWINGS">FIG. 12</figref>;</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 14</figref> is a front elevation view of the face protector of <figref idref="DRAWINGS">FIGS. 12 and 13</figref>;</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 15</figref> is a top plan view of the face protector of <figref idref="DRAWINGS">FIGS. 12 to 14</figref>;</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 16</figref> is a rear elevation view of the face protector of <figref idref="DRAWINGS">FIGS. 12 to 15</figref>;</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 17</figref> is a right side elevation view of the face protector of <figref idref="DRAWINGS">FIGS. 12 to 16</figref>;</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 18</figref> is a rear exploded view of the face protector of <figref idref="DRAWINGS">FIGS. 1 to 9</figref> with a modified lens-in-a-lens assembly (lens assembly) including an optional cheater or magnifying lens;</p>
+<p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 19</figref> is a rear perspective view of the modified back plate of the lens assembly of <figref idref="DRAWINGS">FIG. 18</figref>;</p>
+<p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 20</figref> is a front elevation view of the light block/spacer of the assembly of <figref idref="DRAWINGS">FIG. 18</figref>;</p>
+<p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 21</figref> is a rear perspective view, partially cut away, of the assembled lens assembly of <figref idref="DRAWINGS">FIG. 18</figref>; and</p>
+<p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 22</figref> is rear perspective view of the entire lens assembly when assembled, excluding other parts of the face protector.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0036" num="0035">Certain embodiments as disclosed herein provide for a face protector having a face plate with a front opening which extends across the eye region of a wearer and rearwardly around the sides of the face towards the ears, and a lens-in-a-lens assembly secured in the front opening.</p>
+<p id="p-0037" num="0036">After reading this description it will become apparent to one skilled in the art how to implement the invention in various alternative embodiments and alternative applications. However, although various embodiments of the present invention will be described herein, it is understood that these embodiments are presented by way of example only, and not limitation. As such, this detailed description of various alternative embodiments should not be construed to limit the scope or breadth of the present invention.</p>
+<p id="p-0038" num="0037">With reference to <figref idref="DRAWINGS">FIGS. 1-9</figref>, a first embodiment of a lens-in-a-lens assembly (&#x201c;lens assembly&#x201d;) <b>100</b> of a face protector <b>105</b> will be described. In an exemplary embodiment, the face protector <b>105</b> is used in a welding application; however, in an alternative embodiments, the face protector <b>105</b> and/or face plate <b>110</b> is used in other applications such as, but not limited to, safety applications, commercial applications, do-it-yourself (DIY) applications, grinding, splash guard, sand blasting, food preparation, fork lift operations, tile cutting, wood cutting, wood chopping, face protection from flying particles, forced high pressure washing applications, during boat travel in sport leisure and commercial fishing, snowboarding, skiing, snowmobiling, hiking, hunting, paint ball, law enforcement, fire fighting, motorcycling, dune buggy or rails, ATV, air soft, spectator sports (e.g., NASCAR car racing, NFL/college football, NHL/college hockey), commercial activities such as airline industry, landscaping, and governmental activities such as military, lake patrols, etc.</p>
+<p id="p-0039" num="0038">With reference to <figref idref="DRAWINGS">FIG. 3</figref>, before describing the lens assembly <b>100</b>, the face protector <b>105</b> will be generally described. The face protector <b>105</b> protects the front of a user's head (i.e., forehead, face, eyes, cheeks, jaw, chin, mouth, nose, ears) from flash burn, ultraviolet light, sparks, heat, and/or other elements associated with the activity/application.</p>
+<p id="p-0040" num="0039">The face protector <b>105</b> includes a face plate <b>110</b> preferably made of an injection molded thin, plastic material. The face plate <b>110</b> has a configuration generally similar to the configuration of a human face and includes a forehead portion <b>120</b>, a cheek portion <b>130</b>, a jaw portion <b>140</b>, a mouth portion <b>142</b>, a nose portion <b>144</b>, ear portions <b>146</b>, a chin portion <b>148</b>, and the replaceable/interchangeable lens assembly <b>100</b> that cover and protect the forehead, cheeks, jaw, mouth, nose, ears, chin, and eyes, respectively, of a user.</p>
+<p id="p-0041" num="0040">The forehead portion <b>120</b> is just wider than the width of the head of the user, is curved rearwardly, and extends from the brow area to just above the forehead area of the user. Substantially all of the skull is not covered by the forehead portion <b>120</b> or the rest of the face protector <b>110</b>. Although not shown, in alternative embodiments, the forehead portion <b>120</b> may include one or more ventilation sections for ventilating the face protector <b>110</b>. On a front side <b>160</b> of the forehead portion <b>120</b>, the forehead portion <b>120</b> may include an insert and/or indicia <b>182</b> displaying a trademark, logo, or other insignia pertinent to the application of the face protector <b>110</b>. The mold used to make the face protector <b>110</b> may include different mold inserts for the different indicia so that the same mold, but different mold inserts, may be used to manufacture the face protectors <b>110</b> for different applications.</p>
+<p id="p-0042" num="0041">The cheek portion <b>130</b> is curved rearwardly from the nose portion <b>144</b> and the mouth portion <b>142</b> of the face plate <b>110</b>, and protects the cheeks of a user.</p>
+<p id="p-0043" num="0042">The jaw portion <b>140</b> is curved rearwardly from the mouth portion <b>142</b> and the cheek portion <b>130</b> of the face plate <b>110</b>, and protects the jaw area of a user. The jaw portion <b>140</b> includes the chin portion <b>148</b>, which has a cupped configuration for receiving the chin of a user. The jaw portion <b>140</b> decreasingly tapers in width from the top of the jaw portion <b>140</b>, just below the lens assembly <b>100</b>, to the bottom of the chin portion <b>148</b>.</p>
+<p id="p-0044" num="0043">The mouth portion <b>142</b> is disposed between the nose portion <b>144</b> and the jaw portion <b>140</b>, and protects the mouth of a user. Although not shown, in an alternative embodiment, the mouth portion <b>142</b> may include ventilation holes in the grooves shown or in other areas of the mouth portion <b>142</b> and/or nose portion <b>144</b>. The mold used to make the face protector <b>110</b> may include different inserts for the different mouth and/or nose designs so that the same mold, but different inserts, may be used to manufacture the face protectors for different applications (e.g. face protectors with and without mouth/nose ventilation holes).</p>
+<p id="p-0045" num="0044">The front side of the nose portion <b>144</b> may bow outward and the rear side <b>162</b> of the nose portion <b>144</b> may be concave to accommodate the nose of the user. Although not shown, as discussed above, the nose portion <b>144</b> may include one or more ventilation holes in alternative embodiments.</p>
+<p id="p-0046" num="0045">The ear portions <b>146</b> extend rearwardly from the opposite ends of the lens assembly <b>100</b>, and decreasingly taper in dimension progressing rearwardly, and protect the entire ears of the user. As illustrated in <figref idref="DRAWINGS">FIG. 2</figref>, substantially rectangular-shaped holes <b>170</b> are disposed in upper portions of the ear portions <b>146</b> for attaching a suitable strap assembly. <figref idref="DRAWINGS">FIG. 3</figref> illustrates a strap assembly <b>410</b> with connectors <b>412</b> connected through the holes <b>170</b> in the back side of ear portions <b>146</b> of the face plate. Strap assembly <b>410</b> is used to retain face protector <b>100</b> in position on the user's head. The straps <b>414</b> of assembly <b>410</b> may be elastic or adjustable to accommodate a range of different size heads.</p>
+<p id="p-0047" num="0046">The face protector <b>110</b> may come in a one-size-fits-all configuration or may come in different sizes for different-sized heads (e.g., XL, L, M, S, child size).</p>
+<p id="p-0048" num="0047">An inner/back side of the face plate <b>110</b> may include cushion member(s) to provide added comfort to the user when wearing the face protector <b>105</b>. The cushion member(s) may be affixed/connected to an inner/back side of the face plate <b>110</b> using an adhesive and/or fasteners. The cushion member(s) may be made of a waterproof, breathable material. The cushion member(s) may include holes therein to increase the breathability and comfort of the cushion member(s) when against the skin of the user. The cushion member(s), like the face plate <b>110</b>, may come in different sizes to allow the user to custom fit the face protector <b>105</b> for the user's specific facial dimensions.</p>
+<p id="p-0049" num="0048">Because of the face-forming, low profile of the face plate <b>110</b>, especially in the jaw portion <b>140</b>, the face plate <b>110</b> allows the user to move one's head from side to side more easily because the lower jaw area of a normal welding helmet or mask hits the users shoulders and causes the helmet/mask to push up and/or off the user's face/head. Also, because of the rounded profile of the face plate <b>110</b>, air flows better than other welding helmets because there is no 90-degree angle that the air has to move past. For example, the forehead portion <b>120</b> of the face plate <b>110</b> has a rounded profile compared to the 90-degree angles of other welding helmets. Also, because of the rounded spherical lens assembly <b>100</b>, which will be described in more detail below, splatter, flying objects, and the like ricochet off the lens assembly <b>100</b> and face plate <b>110</b> with less impact and stress on the face plate <b>110</b>, and the lens assembly <b>100</b> does not scratch so easily.</p>
+<p id="p-0050" num="0049">With reference generally to <figref idref="DRAWINGS">FIGS. 1-9</figref>, the lens assembly <b>100</b> will now be described in more detail. The lens assembly <b>100</b> protects the user's eyes from flash burn (e.g., causing arc eyes, retina burns), ultraviolet light, sparks, heat, and/or other elements associated with the activity/application. The lens assembly <b>100</b> also maximizes the user's general vision and peripheral vision, which helps the user to spot fires in the welding area (e.g., to the sides of the user) caused by hot metal sparks generated by the arc that ignite flammable objects.</p>
+<p id="p-0051" num="0050">The lens assembly <b>100</b> is replaceable/interchangeable with other lenses (e.g., for different welding applications, for different applications) and fits within an eye opening <b>190</b> (<figref idref="DRAWINGS">FIG. 1</figref>) of the face plate <b>110</b>. The lens assembly <b>100</b> includes an Automatic Darkening Filter (&#x201c;ADF&#x201d;) retainer lens <b>200</b>, a front cover <b>210</b>, an ADF lens <b>220</b>, a polycarbonate lens protector <b>230</b>, a back cover or rear retainer frame <b>240</b>, flat head screws <b>250</b>, and threaded inserts <b>260</b>.</p>
+<p id="p-0052" num="0051">The ADF retainer lens <b>200</b> is partially spherical, toroidal, and/or cylindrical, providing the user with <b>180</b> degree viewing and unobstructed peripheral vision. Opposite peripheral/temple portions <b>270</b> of the ADF retainer lens <b>200</b> include crescent-shaped holes <b>280</b> that overlap crescent-shaped holes <b>290</b> in recessed eye opening section <b>300</b>. Fasteners may extend through the holes <b>280</b>, <b>290</b> for connecting the ADF retainer lens <b>200</b> to the recessed eye opening section <b>300</b> of the face plate <b>110</b>. The ADF retainer lens <b>200</b> includes a central section with a rectangular opening <b>310</b> having front upper and lower recessed sections <b>320</b>, side cut-outs <b>330</b>, and rearwardly extending receiving section <b>335</b>. The rearwardly extending receiving section <b>335</b> includes rearwardly extending upper horizontal member, lower horizontal member, and side vertical members that together form an air/space pocket between the ADF lens <b>220</b> and the front cover <b>210</b> when the lens assembly <b>100</b> is assembled. In one embodiment, the ADF retainer lens <b>200</b> is a #10 shaded lens and is made of polycarbonate. In alternative embodiments, the ADF retainer lens <b>200</b> is a shaded lens in the range of #2-#12 shaded lens.</p>
+<p id="p-0053" num="0052">The front cover <b>210</b> protects the ADF lens <b>220</b> from impact. The front cover <b>210</b> is transparent, un-shaded, rectangular/spherical/torical/cylindrical, made of polycarbonate and has a slight curved configuration/shape. Although front cover <b>210</b> is a separate component secured in an opening in the retainer lens in the illustrated embodiment, it may alternatively comprise a transparent or substantially transparent cover portion formed integrally with the retainer lens. The front cover <b>210</b>, when disposed in the ADF retainer lens <b>200</b>, is flush with the outer surface of lens <b>200</b>. Rearward extending latch projections <b>340</b> extend from opposite sides <b>350</b> of the front cover <b>210</b> and extend through the side cut-outs <b>330</b> of the ADF retainer lens <b>200</b> (see <figref idref="DRAWINGS">FIGS. 1 and 2</figref>).</p>
+<p id="p-0054" num="0053">As indicated above, the lens assembly <b>100</b> has a lens-in-a-lens design with the ADF retainer lens <b>200</b> forming an outer holder lens and the ADF lens <b>220</b> forming an inner lens carried within/by the ADF retainer lens <b>200</b>. Threaded inserts <b>260</b> are injected/added into a rear/back side of the ADF retainer lens <b>200</b>.</p>
+<p id="p-0055" num="0054">The ADF lens <b>220</b> is substantially rectangular and has a rectangular frame portion and a rectangular lens portion held in the rectangular frame portion. In the embodiment shown, the ADF lens <b>220</b> is a 2 in.&#xd7;4.25 in. ADF lens and is a shade #3 normally and darkens to shade #10 automatically when exposed to the flare of a welding arc. The ADF lens <b>220</b> is interchangeable with other 108 mm&#xd7;50.8 mm&#xd7;5 mm ADF filters and shades. In further embodiments, the outer ADF retainer lens <b>200</b> is a shade which matches the shade of the ADF lens <b>220</b>, but these lenses may be of different shades in other embodiments. In an alternative embodiment, the ADF lens <b>220</b> is a 4 in.&#xd7;4 in. or 4 in.&#xd7;5 in. ADF lens, as described below in connection with the embodiment of <figref idref="DRAWINGS">FIGS. 10 to 15</figref>. In further embodiments, the ADF lens <b>220</b> and/or the outer ADF retainer lens <b>200</b> may be made of different shades and/or different types of ADF lenses.</p>
+<p id="p-0056" num="0055">A rectangular polycarbonate lens protector <b>230</b> is disposed behind the ADF lens <b>220</b>.</p>
+<p id="p-0057" num="0056">The rectangular back cover <b>240</b> includes a central rectangular opening <b>360</b> and forwardly extending upper/lower flange members <b>370</b>. A front of the back cover <b>240</b> includes a rectangular recessed section <b>380</b> with side cut-outs <b>390</b>. The recessed section <b>380</b> in the front of the back cover <b>240</b> receives/retains the polycarbonate lens protector <b>230</b> and the ADF lens <b>220</b>. The rearwardly extending latch projections <b>340</b> of the front cover <b>210</b> latch into the side cut-outs <b>390</b> of the back cover <b>240</b>. The flat head screws <b>250</b> are inserted through holes in the corners of the back cover <b>240</b> and threadably engage the threaded inserts <b>260</b> in the rear side of the ADF retainer lens <b>200</b> to connect/assemble the rectangular back cover <b>240</b>, the polycarbonate lens protector <b>230</b>, and the ADF lens <b>220</b>, the ADF retainer lens <b>200</b>, and the front cover <b>210</b> of the lens assembly <b>100</b> together.</p>
+<p id="p-0058" num="0057">Thus, the lens assembly <b>100</b> protects the user's eyes from flash burn, ultraviolet light, sparks, heat, and/or other elements associated with the activity/application, and maximizes the user's peripheral/overall vision. Increased peripheral vision helps the user to spot fires or other objects in the welding area (e.g., to the sides of the user) caused by hot metal sparks generated by the arc that ignite flammable objects.</p>
+<p id="p-0059" num="0058"><figref idref="DRAWINGS">FIGS. 10 and 11</figref> illustrate a modification of the lens assembly <b>100</b> of <figref idref="DRAWINGS">FIGS. 1 to 9</figref> in which a rear rectangular gasket or gasket plate <b>241</b> is added between the back cover or retainer <b>240</b> and the lens protector <b>230</b>. Gasket <b>241</b> is of approximately the same dimensions as rear retainer or cover <b>240</b>, and has a rectangular opening <b>242</b> of similar size aligned with opening <b>360</b>. As illustrated in <figref idref="DRAWINGS">FIGS. 10 and 11</figref>, the opposite sides <b>243</b> of gasket <b>241</b> are inset relative to the sides <b>380</b> of rear cover <b>240</b> to allow clearance for fastener screws <b>250</b> when the components of the lens assembly are fastened together. The rear gasket <b>241</b> allows different ADF lenses <b>220</b> with different depths to be used in the lens assembly, for example generic ADF lenses. The rear gasket <b>241</b>, back cover <b>230</b>, and ADF lens <b>220</b> are held between back cover <b>240</b> and lens protector <b>230</b> by the screws <b>250</b> which secure back cover <b>240</b> to the threaded inserts in ADF retainer lens <b>200</b>. The rear gasket <b>241</b> allows lens <b>220</b> to be exchanged for other ADF lenses <b>220</b> having different lens properties and/or different depths, as noted above. All other parts of the lens assembly are identical to the lens assembly <b>100</b> of <figref idref="DRAWINGS">FIGS. 1 to 9</figref>, and like reference numbers are used for like parts as appropriate.</p>
+<p id="p-0060" num="0059"><figref idref="DRAWINGS">FIGS. 12 to 17</figref> illustrate a second embodiment of a face protector <b>400</b> comprising a face plate <b>401</b> having a front opening <b>402</b>. A lens-in-a-lens assembly <b>100</b>A which is similar to that of the previous embodiment but of different dimensions is mounted in front opening <b>402</b> in the same manner as described in the previous embodiment for lens assembly <b>100</b>. Parts of assembly <b>100</b><i>a </i>which are equivalent to corresponding parts in the previous embodiment but of different dimensions or shape are provided with the same reference numbers as in the previous embodiment, followed by the letter A, and reference is made to the above description of these parts in the first embodiment for details of their materials and functions. The lens-in-a-lens assembly <b>100</b><i>a </i>and the front opening <b>402</b> for receiving the assembly are both larger in this embodiment than the previous embodiment, offering an increased viewing area to the wearer.</p>
+<p id="p-0061" num="0060">The face plate <b>401</b> is similar in shape and made of the same material as face plate <b>110</b> of the previous embodiment, and like reference numbers are used for like parts as appropriate. Reference is made to the description of these parts in connection with the previous embodiment, and the parts are not described in detail in connection with this embodiment, apart from any variations from the previous embodiment. A strap assembly <b>410</b> with connectors <b>412</b> which connect to the holes <b>170</b> in the back side of ear portions <b>146</b> of the face plate is illustrated in <figref idref="DRAWINGS">FIGS. 12 to 17</figref>, similar or identical to the strap assembly <b>410</b> secured to face protector <b>100</b> of the first embodiment, as illustrated in <figref idref="DRAWINGS">FIG. 3</figref> above, and like reference numbers are used for like parts as appropriate.</p>
+<p id="p-0062" num="0061">As can be seen by comparing <figref idref="DRAWINGS">FIGS. 9 and 14</figref>, the recessed front or eye opening <b>402</b> in the face plate <b>401</b> of this embodiment is larger than the recessed eye opening <b>300</b> of the first embodiment, and the ADF retainer lens <b>200</b><i>a </i>of the lens assembly is of shape and dimensions substantially matching those of opening <b>402</b> so that it is a close fit in the opening when opposite peripheral/temple portions <b>270</b><i>a </i>are secured to the opposite ear portions or side portions of the face plate. As in the previous embodiment, retainer lens <b>200</b><i>a </i>has crescent shaped holes <b>280</b><i>a </i>that overlap corresponding holes in the recessed eye opening section, and fasteners <b>281</b> extend through the overlapping holes to secure the retainer lens in the recessed opening. The retainer lens <b>200</b><i>a </i>is of increased height relative to the retainer lens <b>200</b> in the previous embodiment, so that it can accommodate a larger ADF lens <b>220</b><i>a</i>. As can be seen by comparing the rear end views of the face protectors <b>105</b> and <b>400</b> in <figref idref="DRAWINGS">FIGS. 7 and 16</figref>, respectively, the ADF lens <b>220</b><i>a </i>is of larger height than lens <b>220</b> but of substantially the same width, and may be of substantially square shape. The larger size of lenses <b>200</b><i>a </i>and <b>220</b><i>a </i>provides increased visibility to the user. The other parts of the lens assembly <b>100</b><i>a </i>which protect lens <b>220</b><i>a </i>and releasably secure the lens to retainer lens <b>200</b><i>a </i>are identical to those of the previous embodiment, apart from the increased dimensions of front cover <b>210</b><i>a</i>, lens protector <b>230</b><i>a</i>, and the frame or back cover <b>240</b><i>a </i>which holds lens <b>200</b><i>a</i>, as well as the front opening <b>310</b><i>a </i>in retainer lens <b>200</b>, to accommodate the increased size of lens <b>220</b><i>a</i>. Apart from the change in dimensions, these parts are identical to the corresponding parts in the first embodiment and are therefore not described in any more detail.</p>
+<p id="p-0063" num="0062">The dimensions of the ADF lens <b>220</b><i>a </i>may be approximately 4.0 in.&#xd7;4.0 in. or 4 in.&#xd7;5 in., with the height dimensions of retainer lens <b>200</b><i>a</i>, the front opening <b>310</b><i>a </i>in the retainer lens, and the recessed opening <b>402</b> in the face plate in which lens <b>200</b><i>a </i>is mounted similarly scaled up to accommodate the increased size of lens <b>220</b><i>a</i>. As in the previous embodiment, lenses <b>200</b><i>a </i>and <b>220</b><i>a </i>may be of any selected initial lens shade and darkened lens shades, and lens <b>200</b><i>a </i>and <b>220</b><i>a </i>may be replaced or interchanged with other lenses of equivalent shapes and dimensions but different lens properties, as desired. As in the previous embodiment, lens assembly <b>100</b><i>a </i>may be modified by addition of a rear gasket similar to rear gasket <b>241</b> of <figref idref="DRAWINGS">FIGS. 10 and 11</figref> but of larger dimensions to match the dimensions of ADF lens <b>220</b><i>a</i>. As in the embodiment of <figref idref="DRAWINGS">FIGS. 1 to 11</figref>, the addition of a rear gasket between rear cover <b>240</b><i>a </i>and lens protector <b>230</b><i>a </i>allows the user to select ADF lenses of different depths, including generic ADF lenses.</p>
+<p id="p-0064" num="0063">As in the previous embodiment, the lens-in-lens assembly <b>100</b><i>a </i>protects a wearer's eyes while allowing peripheral vision, and one or both lenses are replaceable or interchangeable as described above in connection with the first embodiment.</p>
+<p id="p-0065" num="0064">Another embodiment of a lens-in-a-lens assembly (&#x201c;lens assembly&#x201d;) <b>500</b> of a face protector <b>502</b> is illustrated in <figref idref="DRAWINGS">FIGS. 18 to 22</figref>. Assembly <b>500</b> is of similar dimensions to the lens assembly <b>100</b> of <figref idref="DRAWINGS">FIGS. 1 to 9</figref>, but some of the parts are modified, as described in more detail below. Apart from the modifications to lens assembly <b>500</b>, the face protector <b>502</b> is identical to the face protector of <figref idref="DRAWINGS">FIGS. 1 to 9</figref>, and like reference numbers are used for like parts as appropriate. As in the first embodiment, lens assembly <b>500</b> is configured for mounting in an eye opening <b>190</b> of face plate <b>110</b> of the face protector, and the remaining parts of the face protector including the face plate are identical to those of the first embodiment and are therefore not described in detail in connection with this embodiment. As described above, the face protector protects the front of a user's head (i.e., forehead, face, eyes, cheeks, jaw, chin, mouth, nose, ears) from flash burn, ultraviolet light, sparks, heat, and/or other elements associated with the activity/application.</p>
+<p id="p-0066" num="0065">As in the previous embodiments, the lens assembly <b>500</b> is replaceable/interchangeable with other lenses (e.g., for different welding applications as well as for other applications where face protection is needed). The lens assembly <b>500</b> includes an Automatic Darkening Filter (&#x201c;ADF&#x201d;) retainer lens <b>200</b>, a front cover <b>210</b>, an ADF lens <b>220</b>, a polycarbonate lens protector <b>230</b>, a light block/spacer <b>505</b>, a back cover or rear retainer frame <b>508</b>, an optional cheater lens or magnifying glass <b>510</b>, flat head screws <b>250</b>, and threaded inserts <b>260</b>.</p>
+<p id="p-0067" num="0066">In this embodiment, the back cover or retainer frame <b>508</b> is modified to accept cheater lens <b>510</b> and a light block/spacer <b>505</b> is added. Spacer <b>505</b> may be of resilient material to allow ADF lenses <b>220</b> of different depths to be secured in the assembly. The cheater lens or cheater glass <b>510</b> has a clear lens or magnifier similar to those used in off-the-shelf reading glasses, and a peripheral rectangular frame <b>515</b>, and can be releasably attached to the back or outer face of back cover <b>508</b> when desired by the user of the face protector for additional magnification if needed while performing a task such as welding. As illustrated in <figref idref="DRAWINGS">FIG. 19</figref>, back cover <b>508</b> in this embodiment has a peripheral rectangular frame <b>509</b> with a recessed seat <b>512</b> against which the outer frame <b>515</b> of cheater lens <b>510</b> can be seated. Seat <b>512</b> is surrounded by rearwardly projecting rim <b>514</b> which has cut-outs around its perimeter. A fastener mechanism is located on the rear side of the frame for releasably attaching a selected cheater lens to the back of the frame. In the illustrated embodiment, the fastener mechanism comprises a spring clip or fastener <b>516</b> extending rearward from one side of the frame <b>509</b>, and a pair of retainer tabs or hooks <b>518</b> located on the opposite side of frame <b>509</b>. If a user wishes to use a cheater lens, they simply engage one side of the lens frame <b>515</b> under the two tabs <b>518</b>, then push the other side past spring clip <b>516</b>, which is depressed and then springs back over the opposite side of the lens frame to hold the cheater lens in position, as illustrated in <figref idref="DRAWINGS">FIGS. 21 and 22</figref>. The spring clip can be pulled up and released by the user in order to remove the cheater lens when it is no longer needed. Different cheater or magnifying lenses with different magnifications may be provided for selective attachment to the back cover as needed.</p>
+<p id="p-0068" num="0067">Other parts of the rectangular back cover <b>508</b> are similar to those of the first embodiment. Cover <b>508</b> includes a central rectangular opening <b>360</b> and upper/lower flange members <b>370</b> which extend forward from upper and lower portions of the frame <b>509</b>, forming a recessed section in the front of the frame which receives/retains spacer <b>505</b>, the polycarbonate lens protector <b>230</b> and the ADF lens <b>220</b>, as best illustrated in <figref idref="DRAWINGS">FIG. 21</figref>. The light block/spacer <b>505</b> is illustrated in more detail in <figref idref="DRAWINGS">FIG. 20</figref>, and may be made of resilient material with light blocking properties. Spacer <b>505</b> has a rectangular peripheral frame <b>520</b> with a central opening <b>522</b>. Frame <b>520</b> has light blocking projections <b>524</b>, <b>525</b> projecting outwardly at its opposite sides.</p>
+<p id="p-0069" num="0068">The rearwardly extending latch projections <b>340</b> of the front cover <b>210</b> latch into the side cut-outs <b>390</b> of the back cover <b>508</b> when the parts are assembled (see <figref idref="DRAWINGS">FIG. 22</figref>), as in the first embodiment. The flat head screws <b>250</b> are inserted through holes <b>520</b> adjacent the corners of the frame <b>509</b> and threadably engage the threaded inserts <b>260</b> (<figref idref="DRAWINGS">FIG. 18</figref>) in the rear side of the ADF retainer lens <b>200</b> to connect/assemble the rectangular back cover <b>508</b>, the spacer <b>505</b>, the polycarbonate lens protector <b>230</b>, the ADF lens <b>220</b>, the ADF retainer lens <b>200</b>, and the front cover <b>210</b> of the lens assembly <b>500</b> together.</p>
+<p id="p-0070" num="0069">Other parts of the assembly <b>500</b> have the same or substantially the same function and structure as described above in connection with the first embodiment. The ADF retainer lens <b>200</b> is partially spherical, toroidal, and/or cylindrical, providing the user with <b>180</b> degree viewing and unobstructed peripheral vision. Opposite peripheral/temple portions <b>270</b> of the ADF retainer lens <b>200</b> include crescent-shaped holes <b>280</b> that overlap crescent-shaped holes <b>290</b> in recessed eye opening section <b>300</b>. Fasteners may extend through the holes <b>280</b>, <b>290</b> for connecting the ADF retainer lens <b>200</b> to the recessed eye opening section <b>300</b> of the face plate <b>110</b>. The ADF retainer lens <b>200</b> includes a central section with a rectangular opening <b>310</b> having front upper and lower recessed sections <b>320</b>, side cut-outs <b>330</b>, and rearwardly extending receiving section <b>335</b>. The rearwardly extending receiving section <b>335</b> includes rearwardly extending upper horizontal member, lower horizontal member, and side vertical members that together form an air/space pocket between the ADF lens <b>220</b> and the front cover <b>210</b> when the lens assembly <b>500</b> is assembled, as illustrated in <figref idref="DRAWINGS">FIG. 21</figref>. In one embodiment, the ADF retainer lens <b>200</b> is a #10 shaded lens and is made of polycarbonate. In alternative embodiments, the ADF retainer lens <b>200</b> is a shaded lens in the range of #2-#12 shaded lens.</p>
+<p id="p-0071" num="0070">As in the first embodiment, the front cover <b>210</b> protects the ADF lens <b>220</b> from impact. The front cover <b>210</b> is transparent, un-shaded, rectangular/spherical/torical/cylindrical, made of polycarbonate and has a slight curved configuration/shape. Although front cover <b>210</b> is a separate component secured in an opening in the retainer lens in the illustrated embodiment, it may alternatively comprise a transparent or substantially transparent cover portion formed integrally with the retainer lens. The front cover <b>210</b>, when disposed in the ADF retainer lens <b>200</b>, is flush with the outer surface of lens <b>200</b>. Rearward extending latch projections <b>340</b> extend from opposite sides <b>350</b> of the front cover <b>210</b> and extend through the side cut-outs <b>330</b> of the ADF retainer lens <b>200</b>, as described above.</p>
+<p id="p-0072" num="0071">As indicated above, the lens assembly <b>500</b> has a lens-in-a-lens design with the ADF retainer lens <b>200</b> forming an outer holder lens and the ADF lens <b>220</b> forming an inner lens carried within/by the ADF retainer lens <b>200</b>. Threaded inserts are injected/added into a rear/back side of the ADF retainer lens <b>200</b>, as in the first embodiment (see <figref idref="DRAWINGS">FIG. 2</figref>).</p>
+<p id="p-0073" num="0072">The ADF lens <b>220</b> is substantially rectangular and has a rectangular frame portion and a rectangular lens portion held in the rectangular frame portion. In the embodiment shown, the ADF lens <b>220</b> is a 2 in.&#xd7;4.25 in. ADF lens and is a shade #3 normally and darkens to shade #10 automatically when exposed to the flare of a welding arc. The ADF lens <b>220</b> is interchangeable with other 108 mm&#xd7;50.8 mm&#xd7;5 mm ADF filters and shades. In further embodiments, the outer ADF retainer lens <b>200</b> is a shade which matches the shade of the ADF lens <b>220</b>, but these lenses may be of different shades in other embodiments. In an alternative embodiment, the ADF lens <b>220</b> in lens assembly <b>502</b> may be a 4 in.&#xd7;4 in. or 4 in.&#xd7;5 in. ADF lens, as described above in connection with the embodiment of <figref idref="DRAWINGS">FIGS. 10 to 15</figref>. In this alternative, the shape and dimensions of the other parts of the lens assembly, including spacer <b>505</b>, back cover <b>508</b> and cheater lens <b>510</b>, are modified appropriately for fitting together in the same way as illustrated for the rectangular lens of <figref idref="DRAWINGS">FIGS. 18 to 22</figref>. In further embodiments, the ADF lens <b>220</b> and/or the outer ADF retainer lens <b>200</b> may be made of different shades and/or different types of ADF lenses.</p>
+<p id="p-0074" num="0073">The above figures may depict exemplary configurations for the invention, which is done to aid in understanding the features and functionality that can be included in the invention. The invention is not restricted to the illustrated architectures or configurations, but can be implemented using a variety of alternative architectures and configurations. Additionally, although the invention is described above in terms of various exemplary embodiments and implementations, it should be understood that the various features and functionality described in one or more of the individual embodiments with which they are described, but instead can be applied, alone or in some combination, to one or more of the other embodiments of the invention, whether or not such embodiments are described and whether or not such features are presented as being a part of a described embodiment. Thus the breadth and scope of the present invention, especially in any following claims, should not be limited by any of the above-described exemplary embodiments.</p>
+<p id="p-0075" num="0074">Terms and phrases used in this document, and variations thereof, unless otherwise expressly stated, should be construed as open ended as opposed to limiting. As examples of the foregoing: the term &#x201c;including&#x201d; should be read as mean &#x201c;including, without limitation&#x201d; or the like; the term &#x201c;example&#x201d; is used to provide exemplary instances of the item in discussion, not an exhaustive or limiting list thereof; and adjectives such as &#x201c;conventional,&#x201d; &#x201c;traditional,&#x201d; &#x201c;standard,&#x201d; &#x201c;known&#x201d; and terms of similar meaning should not be construed as limiting the item described to a given time period or to an item available as of a given time, but instead should be read to encompass conventional, traditional, normal, or standard technologies that may be available or known now or at any time in the future. Likewise, a group of items linked with the conjunction &#x201c;and&#x201d; should not be read as requiring that each and every one of those items be present in the grouping, but rather should be read as &#x201c;and/or&#x201d; unless expressly stated otherwise. Similarly, a group of items linked with the conjunction &#x201c;or&#x201d; should not be read as requiring mutual exclusivity among that group, but rather should also be read as &#x201c;and/or&#x201d; unless expressly stated otherwise. Furthermore, although item, elements or components of the disclosure may be described or claimed in the singular, the plural is contemplated to be within the scope thereof unless limitation to the singular is explicitly stated. The presence of broadening words and phrases such as &#x201c;one or more,&#x201d; &#x201c;at least,&#x201d; &#x201c;but not limited to&#x201d; or other like phrases in some instances shall not be read to mean that the narrower case is intended or required in instances where such broadening phrases may be absent.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>The invention claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A face protector, comprising:
+<claim-text>a face plate having portions configured to protect the forehead, cheeks, jaw, chin, mouth, ears, and nose of a wearer, the face plate having a front opening configured for positioning over the eyes of a wearer and extending rearwardly over opposite sides of the face towards the ears of a wearer; and</claim-text>
+<claim-text>a lens-in-lens assembly secured in the front opening of the face plate;</claim-text>
+<claim-text>the lens-in-lens assembly comprising a first, retainer lens secured in the front opening and substantially flush with at least the forehead portion of the face plate, the first lens being of shape and dimensions which substantially match the shape and dimensions of the front opening, a second lens of smaller dimensions behind the first lens to provide a lens-in-a-lens configuration, a back cover behind the second lens, and a retainer assembly configured to releasably secure the second lens and back cover to the first lens; and</claim-text>
+<claim-text>at least one magnifying lens configured for selective releasable attachment to the lens-in-lens assembly behind the back cover, wherein the back cover comprises an outer frame and a fastener mechanism extending rearward from the outer frame and configured to releasably secure the magnifying lens to a rear face of the outer frame.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The face protector of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the lens assembly further comprises a spacer between the back cover and second lens.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The face protector of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the spacer comprises an outer frame with a central opening aligned with the second lens.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The face protector of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the lens assembly further comprises an at least substantially transparent lens protector secured behind the second lens between the spacer and second lens.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The face protector of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the spacer comprises a resilient gasket, whereby second lenses of different lens properties and different depths may be selectively secured behind the first lens.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The face protector of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the outer frame has a recessed, rearwardly facing seat with a peripheral rim configured to receive the magnifying lens.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The face protector of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the second lens is an automatic darkening filter (ADF) lens, and the first lens has a cover portion of at least substantially transparent material in front of the second lens.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The face protector of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the first lens has a central opening in front of the second lens and the cover portion comprises a separate front cover member secured in the central opening.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The face protector of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first lens is releasably secured in the front opening of the face plate.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The face protector of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a set of interchangeable automatic darkening filter (ADF) second lenses of identical shape and different shades for selectively securing to the first lens.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The face protector of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the first lens is curved and the second lens is at least substantially flat.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The face protector of <claim-ref idref="CLM-00011">claim 11</claim-ref> wherein the second lens is rectangular.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The face protector of <claim-ref idref="CLM-00012">claim 12</claim-ref>, wherein the dimensions of the second lens are in the range from approximately 2 inches to 4.5 inches in height and approximately 4.0 to 5.0 inches in width.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The face protector of <claim-ref idref="CLM-00011">claim 11</claim-ref>, wherein the first lens has a cover portion of rectangular peripheral shape aligned with the second lens, the cover portion being at least substantially transparent.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The face protector of <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the cover portion comprises a front cover member having an outer surface substantially flush with the first lens, and the first lens has an opening in which the cover member is secured.</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The face protector of <claim-ref idref="CLM-00014">claim 14</claim-ref>, wherein the first lens has a rearwardly extending receiving section adjacent the cover portion and the retainer assembly comprises releasable fasteners configured to releasably secure the second lens to the receiving section of the first lens.</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. A lens assembly for securing in an opening in a face plate of a face protector, comprising:
+<claim-text>a first, retainer lens configured to be secured in the front opening of a face plate and having a curvature substantially matching the curvature of the face plate, the first lens having a central portion extending across the face of a wearer of the face protector and side portions configured to provide peripheral vision to the wearer;</claim-text>
+<claim-text>a second lens of smaller dimensions behind the first lens to provide a lens-in-a-lens configuration;</claim-text>
+<claim-text>a back cover behind the second lens, the back cover comprising at least an outer frame; and</claim-text>
+<claim-text>releasable fasteners configured to releasably secure the back cover and second lens to the first lens; and</claim-text>
+<claim-text>at least one magnifying lens for selective, releasable attachment behind the back cover and the outer frame has a rearwardly projecting fastener mechanism configured for releasably securing the magnifying lens to the outer frame.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The lens assembly of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein the fastener mechanism comprises at least one spring clip configured for releasable snap engagement with an outer rim of the magnifying lens.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The lens assembly of <claim-ref idref="CLM-00017">claim 17</claim-ref>, further comprising a plurality of magnifying lenses having different magnifications for selective, releasable attachment behind the back cover.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The lens assembly of <claim-ref idref="CLM-00017">claim 17</claim-ref>, further comprising at least one spacer mounted between the second lens and back cover.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text>21. The lens assembly of <claim-ref idref="CLM-00020">claim 20</claim-ref>, further comprising an at least substantially transparent lens protector secured between the second lens and spacer, the lens protector being of peripheral shape substantially matching the peripheral shape of the second lens.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text>22. The lens assembly of <claim-ref idref="CLM-00020">claim 20</claim-ref>, wherein the spacer comprises an outer frame of elastomeric material having a central opening aligned with the second lens.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text>23. The lens assembly of <claim-ref idref="CLM-00022">claim 22</claim-ref>, wherein the outer frame of the spacer has a pair of light blocking projections extending outwards from opposite sides of the frame.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text>24. The lens assembly of <claim-ref idref="CLM-00017">claim 17</claim-ref>, further comprising at least one set of interchangeable lenses having different lens properties corresponding to one of said lenses, said one lens being releasably secured in said lens assembly and being interchangeable with other lenses in said one set of interchangeable lenses.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text>25. The lens assembly of <claim-ref idref="CLM-00024">claim 24</claim-ref>, wherein the different lens properties comprise at least lens shade.</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text>26. The lens assembly of <claim-ref idref="CLM-00024">claim 24</claim-ref>, wherein said set of interchangeable lenses comprise automatic darkening filter (ADF) lenses of different shades.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text>27. The lens assembly of <claim-ref idref="CLM-00017">claim 17</claim-ref>, further comprising first and second sets of interchangeable lenses having different lens properties and said first and second lenses are selected from the respective first and second set of interchangeable lenses.</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text>28. The lens assembly of <claim-ref idref="CLM-00017">claim 17</claim-ref>, further comprising a set of interchangeable second lenses having different lens properties for selectively securing between the first lens and back cover, at least some of said second lenses being of different depths, the assembly further comprising a spacer of flexible material between the second lens and back cover for accommodating second lenses of varying depth.</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text>29. The lens assembly of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein the second lens is an automatic darkening filter (ADF) lens, and the first lens has a cover portion of at least substantially transparent material in front of the second lens.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text>30. A method of using a face protector with an interchangeable lens assembly, comprising:
+<claim-text>securing a lens assembly in a front opening in a face plate configured to extend over the face of a wearer to protect the forehead, cheeks, jaw, chin, mouth, ears and nose of a wearer while the lens assembly protects the eyes and areas surrounding the eyes, the lens assembly having a first lens which fits the face plate front opening, a second lens of smaller dimensions behind the first lens, a back cover secured behind the second lens, at least one magnifying lens configured for selective releasable attachment behind the back cover, wherein the back cover comprises an outer frame and a fastener mechanism extending rearward from the outer frame and configured to releasably secure the magnifying lens to a rear face of the outer frame;</claim-text>
+<claim-text>applying the assembled face protector to a wearer's head with the second lens extending in front of the wearer's eyes when looking forwards and the first lens extending over at least part of the sides of the wearer's face on each side of the wearer's eyes to provide peripheral vision to the wearer;</claim-text>
+<claim-text>wearing the face protector during an activity; and</claim-text>
+<claim-text>removing the face protector after the activity.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00031" num="00031">
+<claim-text>31. The method of <claim-ref idref="CLM-00030">claim 30</claim-ref>, further comprising releasably securing a selected magnifying lens behind the back cover before applying the assembled face protector to a wearer's head, whereby objects viewed by the wearer through the lens assembly are magnified.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>
