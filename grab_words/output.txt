@@ -1,0 +1,237 @@
+" second lenses " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" lens protector " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" side cut " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" retainer frame " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" lens assembly " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" second lens " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" cover portion " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" face protectors " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" first embodiment " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" cover member " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" substantially transparent " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" retainer lens " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" assembly shown " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" not shown " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" first lens " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" having different " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" face plate " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" lens has " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" substantially matching " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" secured behind " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" front opening " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" different lens " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" lens properties " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" lenses having " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" adf retainer " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" face protector " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" may include " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" different shades " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" front cover " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" adf lens " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" lens configuration " 
+content file: 1.XML,2.XML,3.XML,4.XML,5.XML
+Show times: 5
+" lenses may " 
+content file: 1.XML,2.XML,3.XML,4.XML
+Show times: 4
+" peripheral vision " 
+content file: 1.XML,2.XML,3.XML,4.XML
+Show times: 4
+" side portions " 
+content file: 1.XML,2.XML,4.XML,5.XML
+Show times: 4
+" back cover " 
+content file: 2.XML,3.XML,4.XML,5.XML
+Show times: 4
+" lens shade " 
+content file: 1.XML,2.XML,3.XML,4.XML
+Show times: 4
+" least substantially " 
+content file: 1.XML,2.XML,3.XML
+Show times: 3
+" outer shell " 
+content file: 3.XML,4.XML,5.XML
+Show times: 3
+" harness strap " 
+content file: 3.XML,4.XML,5.XML
+Show times: 3
+" opening section " 
+content file: 2.XML,3.XML,4.XML
+Show times: 3
+" welding helmets " 
+content file: 1.XML,2.XML,3.XML
+Show times: 3
+" rescue harness " 
+content file: 3.XML,4.XML,5.XML
+Show times: 3
+" harness handle " 
+content file: 3.XML,4.XML,5.XML
+Show times: 3
+" harness device " 
+content file: 3.XML,4.XML,5.XML
+Show times: 3
+" interchangeable lenses " 
+content file: 1.XML,2.XML,3.XML
+Show times: 3
+" back side " 
+content file: 2.XML,3.XML,4.XML
+Show times: 3
+" harness devices " 
+content file: 3.XML,4.XML,5.XML
+Show times: 3
+" welding arc " 
+content file: 1.XML,2.XML
+Show times: 2
+" least one " 
+content file: 1.XML,2.XML
+Show times: 2
+" further comprising " 
+content file: 1.XML,2.XML
+Show times: 2
+" adf lenses " 
+content file: 3.XML,4.XML
+Show times: 2
+" lens having " 
+content file: 1.XML,2.XML
+Show times: 2
+" extending receiving " 
+content file: 1.XML,2.XML
+Show times: 2
+" protective coat " 
+content file: 3.XML,4.XML
+Show times: 2
+" outer frame " 
+content file: 4.XML,5.XML
+Show times: 2
+" one lens " 
+content file: 1.XML,2.XML
+Show times: 2
+" lens configured " 
+content file: 2.XML,3.XML
+Show times: 2
+" other embodiment " 
+content file: 5.XML
+Show times: 1
+" different applications " 
+content file: 1.XML
+Show times: 1
+" dimensions secured " 
+content file: 1.XML
+Show times: 1
+" ear warmer " 
+content file: 5.XML
+Show times: 1
+" first end " 
+content file: 5.XML
+Show times: 1
+" neck shroud " 
+content file: 4.XML
+Show times: 1
+" outer membrane " 
+content file: 5.XML
+Show times: 1
+" ear portion " 
+content file: 5.XML
+Show times: 1
+" exemplary embodiment " 
+content file: 3.XML
+Show times: 1
+" side portion " 
+content file: 5.XML
+Show times: 1
+" first band " 
+content file: 5.XML
+Show times: 1
+" transparent lens " 
+content file: 1.XML
+Show times: 1
+" second band " 
+content file: 5.XML
+Show times: 1
+" back region " 
+content file: 4.XML
+Show times: 1
+" further comprises " 
+content file: 1.XML
+Show times: 1
+" other embodiments " 
+content file: 4.XML
+Show times: 1
+" warmer shell " 
+content file: 5.XML
+Show times: 1
+" one embodiment " 
+content file: 5.XML
+Show times: 1
+" rearwardly extending " 
+content file: 2.XML
+Show times: 1
+" welding area " 
+content file: 1.XML
+Show times: 1
+" described above " 
+content file: 2.XML
+Show times: 1
+" different properties " 
+content file: 1.XML
+Show times: 1

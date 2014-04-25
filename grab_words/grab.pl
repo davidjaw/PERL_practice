@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 @file_name = glob "*.XML";
-open (W, '>debug.txt');
+open (W, '>output.txt');
 for my $filename (@file_name) {
 	open (F, "$filename") || die "$!\n";
 	my @infile = <F>;
@@ -30,7 +30,8 @@ sub grab {
 	my %voc_compare = ();
 	my @compare = ();
 	my @voc_done = ();
-	my @delete = qw/the figs that with from and/;
+	my @delete = qw/for the figs that with from and/;
+	print "loading file: $filename .....\n";
 	for my $line (@file_key){
 		my $i = 0;
 		$line =~ s/\d//g;
@@ -53,7 +54,11 @@ sub grab {
 			while ($line =~ /$comparement\s(\w+)/g){
 				my $reg = $&;
 				my $reg2 = $1;
-				if($reg2 !~ /\d+/ && $reg2 !~ /^\w{1,2}?$/){ $keyword{$reg}++;print "$reg\n"; }
+				my $cheak = 0;
+				if($reg2 !~ /\d+/ && $reg2 !~ /^\w{1,2}?$/){ 
+					for my $del(@delete){ if($reg2 eq $del){ $cheak++; }  }
+					$keyword{$reg}++ if ($cheak == 0);
+				}
 			}
 		}
 	}
@@ -65,10 +70,13 @@ sub grab {
 		${$hash_voc{$voc}->{'times'}}++;
 	}
 }
-sort{$voc_compare{$b}<=>$voc_compare{$a}} keys %voc_compare;
+print "Building.....\n";
 for my $voc(keys %hash_voc) {
-	print W "\" $voc \"content file: ";
-	print W "$_," for (@{$hash_voc{$voc}->{'filename'}});
-	print W "Show times: ";
-	print W ${$hash_voc{$voc}->{'times'}},"\n";
+	$temp = "\" $voc \" \ncontent file: ";
+	for (@{$hash_voc{$voc}->{'filename'}}){ $temp = "$temp$_,"; }
+	$temp = substr ($temp, 0,-1);
+	$temp = "$temp\nShow times: ";
+	$hash_print{$temp} = ${$hash_voc{$voc}->{'times'}};
 }
+@compare = sort{$hash_print{$b}<=>$hash_print{$a}} keys %hash_print;
+print W "$_$hash_print{$_}\n" for (@compare);
