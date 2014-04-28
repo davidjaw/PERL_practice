@@ -30,19 +30,20 @@ sub grab {
 	my %voc_compare = ();
 	my @compare = ();
 	my @voc_done = ();
+	my %keyword = ();
 	my @delete = qw/for the figs that with from and/;
 	print "loading file: $filename .....\n";
 	for my $line (@file_key){
 		my $i = 0;
-		$line =~ s/\d//g;
-		while ($line =~ /\s/g){ $i++; }
+		$line =~ s/\d//g;	#數字刪除
+		while ($line =~ /\s/g){ $i++; }		#該行空白大於三個再存入voc中
 		if($i > 3) { push @voc, split ' ', $line; }
 	}
 	for(@voc){
-		$_ =~ s/\d//g;
-		$_ =~ s/\W//g;
-		$_ =~ s/^.{1,2}$//g;
-		if($_ ne ''){ push @voc_done, $_; }
+		$_ =~ s/\d//g;         #數字刪除
+		$_ =~ s/\W//g;         #非文字刪除
+		$_ =~ s/^.{1,2}$//g;   #1-2個長度之單字刪除
+		if($_ ne ''){ push @voc_done, $_; } 
 	}
 	for(@voc_done) { $voc_compare{$_}++; }
 	for(@delete){ delete $voc_compare{$_}; }
@@ -52,10 +53,11 @@ sub grab {
 		my $comparement = $compare[$_];
 		for my $line(@$file_ref){
 			while ($line =~ /$comparement\s(\w+)/g){
-				my $reg = $&;
-				my $reg2 = $1;
+				my $reg = $&;	
+				my $reg2 = $1;	#'$1'是比對式子中第一個被()起來的地方
 				my $cheak = 0;
-				if($reg2 !~ /\d+/ && $reg2 !~ /^\w{1,2}?$/){ 
+				if($reg2 !~ /\d+/ && $reg2 !~ /^\w{1,2}?$/){	
+					#$1不為純數字及1-2長度的單字時檢查是否為@delete中的要刪除字元
 					for my $del(@delete){ if($reg2 eq $del){ $cheak++; }  }
 					$keyword{$reg}++ if ($cheak == 0);
 				}
@@ -72,7 +74,7 @@ sub grab {
 }
 print "Building.....\n";
 for my $voc(keys %hash_voc) {
-	$temp = "\" $voc \" \ncontent file: ";
+	$temp = "\-\-\-\-$voc\ncontent file: ";
 	for (@{$hash_voc{$voc}->{'filename'}}){ $temp = "$temp$_,"; }
 	$temp = substr ($temp, 0,-1);
 	$temp = "$temp\nShow times: ";
