@@ -2,6 +2,7 @@
 @file_name = glob "*.XML";
 open (W, '>output.txt');
 for my $filename (@file_name) {
+	my @file = ();
 	open (F, "$filename") || die "$!\n";
 	my @infile = <F>;
 	close (F);
@@ -24,15 +25,15 @@ sub grab {
 		# "times" => [],
 	# };
 	my @voc = ();
-	my $filename = shift;
-	my $file_ref = shift;
-	my @file_key = @$file_ref;
 	my %voc_compare = ();
 	my @compare = ();
 	my @voc_done = ();
 	my %keyword = ();
+	my $filename = shift;
+	my $file_ref = shift;
+	my @file_key = @$file_ref;
 	my @delete = qw/for the figs that with from and/;
-	print "loading file: $filename .....\n";
+	print "loading file: $filename .....  $i / $#file_name\n";
 	for my $line (@file_key){
 		my $i = 0;
 		$line =~ s/\d//g;	#數字刪除
@@ -71,6 +72,7 @@ sub grab {
 		push @{$hash_voc{$voc}->{'filename'}}, $filename;
 		${$hash_voc{$voc}->{'times'}}++;
 	}
+	$i++;
 }
 print "Building.....\n";
 for my $voc(keys %hash_voc) {
