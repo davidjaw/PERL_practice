@@ -32,7 +32,6 @@ sub cs {
 		for my $value (@{$hash{$i}}){
 			my $reg = $AUX[$i] - 1;
 			$sort[$reg] = $value;
-		print "\nreg=$reg value=$value i=$i";
 			$AUX[$i]--;
 		}
 	}
