@@ -1,5 +1,5 @@
 #!/bin/user/perl-w
-@in = qw/5 7 1 2 34 8 9 5 2/;
+@in = qw/100 154 99 4 4 4 845 55 12 334 4 7 5/;
 print "beforr sort \@in : \n";
 print "@in";
 print "\n";
@@ -12,12 +12,11 @@ sub cs {
 	my @AUX = ();
 	my @sort = ();
 	for(@unsort){ $AUX[$_]++; }
-	for(0..$#AUX){ if($AUX[$_] == undef) { $AUX[$_] = 0; } }
 	for my $i(1..$#AUX){ $AUX[$i] += $AUX[$i-1] ; }
 	for my $i (@unsort){
 		my $reg = $AUX[$i] - 1;
 		$sort[$reg] = $i;
 		$AUX[$i]--;
 	}
-	return @sort;
+	return reverse @sort;
 }
