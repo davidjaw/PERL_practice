@@ -25,7 +25,7 @@ sub cs {
 	for my $num (keys %hash){ 
 		my $i = 0;
 		for(@{$hash{$num}}){ $i++; }
-		if ($i != 2){ $AUX[$num]++;  } else { $AUX[$num] = $AUX[$num] + 2; }
+		if ($i != 2){ $AUX[$num]++;  } else { $AUX[$num] = $AUX[$num] + $i; }
 	}
 	for my $i (1..$#AUX){ $AUX[$i] += $AUX[$i-1] ; }
 	for my $i (keys %hash){
