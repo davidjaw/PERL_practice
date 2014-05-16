@@ -1,13 +1,14 @@
 #!/bin/user/perl-w
 %hash = (
-	"a" => 57,
+	"a" => 555,
 	"b" => 45,
-	"c" => 95,
+	"c" => 555,
 	"d" => 555,
 	"e" => 54,
 	"f" => 55,
 	"g" => 51,
 	"h" => 15,
+	'aaa$a#b!'=>10,
 );
 @out = cs(\%hash);
 print "\nAfter sort:\n";
@@ -22,10 +23,10 @@ sub cs {
 		my $reg = $in[$i+1];
 		push @{$hash{$reg}}, $in[$i];
 	}
-	for my $num (keys %hash){ 
+	for my $num (keys %hash){
 		my $i = 0;
 		for(@{$hash{$num}}){ $i++; }
-		if ($i != 2){ $AUX[$num]++;  } else { $AUX[$num] = $AUX[$num] + $i; }
+		if ($i < 2){ $AUX[$num]++;  } else { $AUX[$num] += $i; }
 	}
 	for my $i (1..$#AUX){ $AUX[$i] += $AUX[$i-1] ; }
 	for my $i (keys %hash){

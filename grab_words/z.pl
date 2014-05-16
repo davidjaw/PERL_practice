@@ -1,0 +1,177 @@
+#!/usr/bin/perl -w
+while(1){
+	my $hash = undef;
+	$i=1;
+	# system("clear");
+	# system("cls");
+	print "====================================\n";
+	print "||============== MENU ============||\n";
+	print "|| 1. output keywords             ||\n";
+	print "|| 2. enter to search             ||\n";
+	print "====================================\n";
+	print "Enter: ";
+	chomp ($enter_MENU = <>);
+	if($enter_MENU == 1){
+		system("cls");
+		&view;
+		&print;
+	} elsif($enter_MENU == 2) {
+
+	} else {
+		last;
+	}
+}
+sub view{
+	@file_name = glob "*.XML";
+	open (W, '>output.txt');
+	open W01, '>content_file.txt';
+	open W02, '>shown_times.txt';
+	for my $filename (@file_name) {
+		open (F, "$filename") || die "$!\n";
+		my @infile = <F>;
+		close (F);
+		@file = map {
+			chop $_;
+			chomp $_;
+			$_ =~ s/\<.{1,300}?\>//g; 	#去標籤
+			$_ =~ s/^\d+$//g;         	#delete all num
+			$_ =~ s/^\w+$//g;    		#delete 純單字行
+			$_ = lc $_;
+			if ($_ ne '') { $_; } else { (); }
+		} @infile;
+		grab($filename, \@file);
+	}
+	close (W01); close(W02); close(W03);
+}
+sub grab {
+	my $length_space = 0;
+	my @voc = ();
+	my %voc_compare = ();
+	my @compare = ();
+	my @voc_done = ();
+	my %keyword = ();
+	my $filename = shift;
+	my $file_ref = shift;
+	my @file_key = @$file_ref;
+	my @delete = qw/used further user where case any between has have been other this said each least another one are may might also which not can for the figs that with from and/;
+	print "loading file: $filename .....  $i / ",$#file_name+1,"\n";
+	@voc_done = map {                                                # @voc = map {
+		$_ =~ s/\W//g;                                               # my $i = 0;
+		$_ =~ s/^.{1,2}$//g;   #1-2個長度之單字刪除                  # $_ =~ s/\d//g;
+		if($_ ne ''){ $_; } else { (); }                             # while ($_ =~ /\s/g){ $i++; }
+	} map {                                                          # if($i > 3) { $_; } else { (); }
+		my $i = 0;                                                   # } @file_key;
+		$_ =~ s/\d//g;	#數字刪除
+		while ($_ =~ /\s/g){ $i++; }		#該行空白大於三個再存入voc中
+		if($i > 3) { split ' ', $_; } else { (); }
+	} @file_key;
+	for(@voc_done){ $voc_compare{$_}++; }
+	for(@delete){ delete $voc_compare{$_}; }
+	@compare = sort{$voc_compare{$b}<=>$voc_compare{$a}} keys %voc_compare;
+	#search keyword
+THREE:
+	my $control = 0;
+	my @ck = ();
+	for(0..49){
+		my $comparement = $compare[$_];
+		for my $line(@$file_ref){
+			if($length_space == 0 && $control < 10){
+				while ($line =~ /$comparement/g){ 
+					my $reg = $&;
+					my $cheak = 0;
+					$keyword{$reg}++; 
+					for(@ck){ if($reg eq $_){ $cheak++; } }
+					for(@delete){ if($reg eq $_){ $cheak++; } }
+					push @ck, $reg;
+					if($cheak == 0){ $control++; }
+				}
+			}
+			elsif ($length_space == 1){
+				while ($line =~ /$comparement\s(\w+)/g){
+					my $reg = $&;
+					my $reg2 = $1;	#'$1'是比對式子中第一個被()起來的地方
+					my $cheak = 0;
+					if($reg2 !~ /\d+/ && $reg2 !~ /^\w{1,2}?$/){
+						#$1不為純數字及1-2長度的單字時檢查是否為@delete中的要刪除字元
+						for my $del(@delete){ if($reg2 eq $del){ $cheak++; }  }
+						$keyword{$reg}++ if ($cheak == 0);
+					}
+				}
+			}
+			elsif ($length_space == 2){
+				while ($line =~ /$comparement\s(\w+)\s(\w+)/g){
+					my $reg = $&;
+					unless($1 =~ /\d/ || $2 =~ /\d/){ $keyword{$reg}++; }
+				}
+			}
+		}
+	}
+	$length_space++;
+goto THREE unless($length_space == 3);
+	@compare = sort{$keyword{$b}<=>$keyword{$a}} keys %keyword;
+	# build database
+	for my $i (0..149){
+		my $voc = $compare[$i];
+		print W01 "$voc\:$filename\n";
+		print W02 "$voc\:\:";
+		for (0..49){ unless ($_ == $i || $compare[$_] =~ /\s/){  my $reg = $compare[$_]; $hash->{$voc}{'relate'}{$reg} ++; } } #print W03 "$voc\:\:$compare[$_]\n";
+	}
+	$i++;
+}
+sub print {
+print "print section\n";
+	open CF, 'content_file.txt'; 	my @CF = <CF>; 	close (CF);
+	open ST, 'shown_times.txt'; 	my $ST = <ST>;	close (ST);
+	my @st = split '::', $ST;
+	#shown_times part
+	my @unsort_ST = ();
+	for(@st){ $hash->{$_}{'ST'} ++; }
+	for my $voc (keys %$hash){
+		my $reg = $hash->{$voc}{'ST'};
+		push @unsort_ST, $voc; push @unsort_ST, $reg;
+	}
+	@sort_keyword = &cs(@unsort_ST);
+	#relate part
+	my @unsort_RL = ();
+	for my $voc (@st){
+		my $reg = $hash->{$voc}{'relate'};
+		print "$reg\n";
+		for my $relate_voc (keys %{$hash->{$voc}{'relate'}}){
+			push @unsort_RL, $relate_voc; push @unsort_RL, $hash->{$voc}{'relate'}->{$relate_voc};
+		}
+		@{$hash->{$voc}{'RL_sort'}} = cs(@unsort_RL);
+	}
+	
+	
+	
+	for(@sort_keyword){
+		my $key = $_;
+		my $key_st = $hash->{$key}{'ST'};
+		
+	}
+	close(W);
+}
+sub cs {
+	my @in = @_;
+	my $hash = ();
+	my @AUX = ();
+	for($i = 0; $i < $#in; $i = $i + 2){
+		my $reg = $in[$i+1];
+		push @{$hash{$reg}}, $in[$i];
+	}
+	for my $num (keys %hash){
+		my $i = 0;
+		for(@{$hash{$num}}){ $i++; }
+		# print '$i=',$i,',$num=',"$num\n";
+		if ($i < 2){ $AUX[$num]++;  } else { $AUX[$num] += $i; }
+	}
+	for my $i (1..$#AUX){ $AUX[$i] += $AUX[$i-1] ; }
+	for my $i (keys %hash){
+		for my $value (@{$hash{$i}}){
+			my $reg = $AUX[$i] - 1;
+			$sort[$reg] = $value;
+			$AUX[$i]--;
+		}
+	}
+	return reverse @sort;
+}
