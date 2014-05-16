@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 while(1){
 	my $hash = undef;
 	$i=1;
@@ -23,9 +23,8 @@ while(1){
 }
 sub view{
 	@file_name = glob "*.XML";
-	open (W, '>output.txt');
-	open W01, '>content_file.txt';
-	open W02, '>shown_times.txt';
+	open W, '>output.txt';
+	open W2, '>shown_times.txt';
 	for my $filename (@file_name) {
 		open (F, "$filename") || die "$!\n";
 		my @infile = <F>;
@@ -41,7 +40,7 @@ sub view{
 		} @infile;
 		grab($filename, \@file);
 	}
-	close (W01); close(W02); close(W03);
+	close(W2);
 }
 sub grab {
 	my $length_space = 0;
@@ -112,19 +111,18 @@ goto THREE unless($length_space == 3);
 	# build database
 	for my $i (0..149){
 		my $voc = $compare[$i];
-		print W01 "$voc\:$filename\n";
-		print W02 "$voc\:\:";
-		for (0..49){ unless ($_ == $i || $compare[$_] =~ /\s/){  my $reg = $compare[$_]; $hash->{$voc}{'relate'}{$reg} ++; } } #print W03 "$voc\:\:$compare[$_]\n";
+		push @{$hash->{$voc}{'filename'}}, $filename;
+		print W2 "$voc\:\:";
+		for (0..149){ unless ($_ == $i || $compare[$_] =~ /\s/){  my $reg = $compare[$_]; $hash->{$voc}{'relate'}{$reg} ++; } } #print W03 "$voc\:\:$compare[$_]\n";
 	}
 	$i++;
 }
 sub print {
 print "print section\n";
-	open CF, 'content_file.txt'; 	my @CF = <CF>; 	close (CF);
-	open ST, 'shown_times.txt'; 	my $ST = <ST>;	close (ST);
-	my @st = split '::', $ST;
-	#shown_times part
-	my @unsort_ST = ();
+	open ST, 'shown_times.txt'; 	my $ST = <ST>;	close (ST);  #@st: all keyword
+	my @st = split '::', $ST;                                    #hash->{$voc}{'RL_sort'}	relate之keyword照順序排好
+	#shown_times part                                            #hash->{$voc}{'filename'}	所含之檔名
+	my @unsort_ST = ();                                          #hash->{$voc}{'ST'}		出現次數
 	for(@st){ $hash->{$_}{'ST'} ++; }
 	for my $voc (keys %$hash){
 		my $reg = $hash->{$voc}{'ST'};
@@ -134,19 +132,23 @@ print "print section\n";
 	#relate part
 	my @unsort_RL = ();
 	for my $voc (@st){
-		my $reg = $hash->{$voc}{'relate'};
-		print "$reg\n";
 		for my $relate_voc (keys %{$hash->{$voc}{'relate'}}){
 			push @unsort_RL, $relate_voc; push @unsort_RL, $hash->{$voc}{'relate'}->{$relate_voc};
 		}
 		@{$hash->{$voc}{'RL_sort'}} = cs(@unsort_RL);
 	}
-	
-	
-	
-	for(@sort_keyword){
-		my $key = $_;
-		my $key_st = $hash->{$key}{'ST'};
+	for my $voc (@sort_keyword){
+		my $voc_st = $hash->{$voc}{'ST'};
+		my @voc_RL = @{$hash->{$voc}{'RL_sort'}};
+		my @contant = @{$hash->{$voc}{'filename'}};
+		print W "$voc\n";
+		print W "Shown times: $voc_st\n";
+		print W "Contant file:\n";
+		print W "$_, " for(@contant);
+		print W "\n";
+		print W "Relate keyword:\n";
+		print W "$_, " for(@voc_RL);
+		print W "\n";
 		
 	}
 	close(W);
