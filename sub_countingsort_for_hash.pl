@@ -36,5 +36,6 @@ sub cs {
 			$AUX[$i]--;
 		}
 	}
+	shift @sort;
 	return reverse @sort;
 }

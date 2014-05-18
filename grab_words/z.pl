@@ -2,8 +2,8 @@
 while(1){
 	my $hash = undef;
 	$i=1;
-	# system("clear");
-	# system("cls");
+	system("clear");
+	system("cls");
 	print "====================================\n";
 	print "||============== MENU ============||\n";
 	print "|| 1. output keywords             ||\n";
@@ -113,7 +113,13 @@ goto THREE unless($length_space == 3);
 		my $voc = $compare[$i];
 		push @{$hash->{$voc}{'filename'}}, $filename;
 		print W2 "$voc\:\:";
-		for (0..149){ unless ($_ == $i || $compare[$_] =~ /\s/){  my $reg = $compare[$_]; $hash->{$voc}{'relate'}{$reg} ++; } } #print W03 "$voc\:\:$compare[$_]\n";
+		for (0..149){ 
+			unless ($_ == $i ){ 
+				# unless ($compare[$_] =~ /\s/){ 
+					my $reg = $compare[$_]; $hash->{$voc}{'relate'}{$reg} ++; 
+				# } 
+			} 
+		} #print W03 "$voc\:\:$compare[$_]\n";
 	}
 	$i++;
 }
@@ -130,13 +136,19 @@ print "print section\n";
 	}
 	@sort_keyword = &cs(@unsort_ST);
 	#relate part
-	my @unsort_RL = ();
-	for my $voc (@st){
-		for my $relate_voc (keys %{$hash->{$voc}{'relate'}}){
+	print "relate part\n";
+	for my $voc (@sort_keyword){
+		my @unsort_RL = ();
+		my $reg_hashref = $hash->{$voc}{'relate'};
+		for my $relate_voc (keys %$reg_hashref){
 			push @unsort_RL, $relate_voc; push @unsort_RL, $hash->{$voc}{'relate'}->{$relate_voc};
 		}
+		$asdfasdf = 1;
 		@{$hash->{$voc}{'RL_sort'}} = cs(@unsort_RL);
+		$asdfasdf = 0;
+		my $cheak = $hash->{$voc}{'RL_sort'};
 	}
+	print "sort\n";
 	for my $voc (@sort_keyword){
 		my $voc_st = $hash->{$voc}{'ST'};
 		my @voc_RL = @{$hash->{$voc}{'RL_sort'}};
@@ -149,14 +161,16 @@ print "print section\n";
 		print W "Relate keyword:\n";
 		print W "$_, " for(@voc_RL);
 		print W "\n";
+		print W "\n";
 		
 	}
 	close(W);
 }
 sub cs {
 	my @in = @_;
-	my $hash = ();
+	my %hash = undef;
 	my @AUX = ();
+	my @sort = ();
 	for($i = 0; $i < $#in; $i = $i + 2){
 		my $reg = $in[$i+1];
 		push @{$hash{$reg}}, $in[$i];
@@ -164,7 +178,6 @@ sub cs {
 	for my $num (keys %hash){
 		my $i = 0;
 		for(@{$hash{$num}}){ $i++; }
-		# print '$i=',$i,',$num=',"$num\n";
 		if ($i < 2){ $AUX[$num]++;  } else { $AUX[$num] += $i; }
 	}
 	for my $i (1..$#AUX){ $AUX[$i] += $AUX[$i-1] ; }
@@ -175,5 +188,6 @@ sub cs {
 			$AUX[$i]--;
 		}
 	}
+	shift @sort;
 	return reverse @sort;
 }
