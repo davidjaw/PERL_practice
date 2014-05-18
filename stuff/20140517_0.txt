@@ -1,0 +1,16 @@
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=6, Lg=22, metetial=Si, SD doping=5e17
+Best Vt:0.7066151, 0.65014784
+Best sslope:74.9550976903764  76.9617003513946
+
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=6, Lg=30, metetial=Si, SD doping=5e17
+Best Vt:0.72559003, 0.69029373
+Best sslope:68.7612730907029  71.325541898491
+
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=6, Lg=40, metetial=Si, SD doping=5e17
+Best Vt:0.73609215, 0.71899571
+Best sslope:67.3107544744471  65.6134043523285
+
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=6, Lg=50, metetial=Si, SD doping=5e17
+Best Vt:0.74430285, 0.73087442
+Best sslope:64.817057248578  65.0803994628863
+
