@@ -1,6 +1,16 @@
 use Math::Complex;
 system("cls");
-open W2, ">SSlope.txt";
+print "Date: "; chomp ($date = <>);
+
+my @oldss = glob "SSlope_*.txt";
+$i = 0;
+for(@oldss){ if($_ =~ /.+\_(\d+)/){ $i++; } }
+open W2, ">SSlope_$i.txt";
+
+@old = glob "$date*.txt";
+$i = 0;
+for(@old){ if($_ =~ /\d+\_(\d+)/){ $i++; } }
+open W, ">$date\_$i.txt";
 
 while(1){
 MENU:
@@ -9,7 +19,7 @@ system("cls");
 	print "2.count SS.\n";
 	print "enter:";
 	chomp($menu = <>);
-	if($menu == 1){	print "Date: "; chomp ($date = <>); &parameter; 	}
+	if($menu == 1){	 &parameter; 	}
 	elsif($menu == 2){ &count; }
 	else { close(W2); last;}
 }
@@ -23,12 +33,6 @@ sub parameter{
 	print "SD doping:";	chomp($SD_doping = <>);
 	print "nm: ";		chomp ($nm = <>);
 	print "meterial: ";	chomp ($meterial = <>);
-	@old = glob "$date*.txt";
-	$i = 0;
-	for(@old){
-		if($_ =~ /\d+\_(\d+)/){ $i++; }
-	}
-	open W, ">$date\_$i.txt";
 	while(1){
 		system("clear");	system("cls");
 		print "Type: $type, R=$r, Tox=$tox, Lg=$lg, metetial=$meterial\n";
@@ -37,10 +41,12 @@ sub parameter{
 		chomp($vt = <>);	@vt = split ' ', $vt;
 		print "Best and 2th sslope: ";
 		chomp($sslope = <>);	@sslope = split ' ', $sslope;
+		print "Ion and Ioff: ";
+		chomp($Iin = <>);	@Iin = split ' ', $Iin;
 		print "output to $date\_$i.txt? ";	chomp($out = <>);
 		if($out == 1){ 
 			print W "Current type: $type, R=$r, D=$d, nm=$nm, Tox=$tox, Lg=$lg, metetial=$meterial, SD doping=$SD_doping\n";
-			print W "Best Vt:$vt[0], $vt[1]\nBest sslope:\n";
+			print W "Best Vt:$vt[0], $vt[1]\nBest sslope:\nIon=$Iin[0], Ioff=$Iin[1]\n";
 		}
 		print "Exit?"; chomp($exit = <>); goto MENU if ($exit == 1);
 		system("clear");	system("cls");
