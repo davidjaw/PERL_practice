@@ -125,7 +125,8 @@ goto THREE unless($length_space == 3);
 }
 sub print {
 print "print section\n";
-	open ST, 'shown_times.txt'; 	my $ST = <ST>;	close (ST);  #@st: all keyword
+	open ST, 'shown_times.txt'; 	my $ST = <ST>;	close (ST);  #@sort_keyword: all keyword
+	unlink 'shown_times.txt';
 	my @st = split '::', $ST;                                    #hash->{$voc}{'RL_sort'}	relate之keyword照順序排好
 	#shown_times part                                            #hash->{$voc}{'filename'}	所含之檔名
 	my @unsort_ST = ();                                          #hash->{$voc}{'ST'}		出現次數
@@ -154,31 +155,32 @@ print "print section\n";
 		my @voc_RL = @{$hash->{$voc}{'RL_sort'}};
 		my @contant = @{$hash->{$voc}{'filename'}};
 		print W "$voc\n";
-		print W "Shown times: $voc_st\n";
-		print W "Contant file:\n";
+		print W "Shown times: $voc_st\nContant file:\n";
 		print W "$_, " for(@contant);
-		print W "\n";
-		print W "Relate keyword:\n";
+		print W "\nRelate keyword:\n";
 		print W "$_, " for(@voc_RL);
-		print W "\n";
-		print W "\n";
-		
+		print W "\n\n";
 	}
 	close(W);
 }
 sub cs {
+open W3, '>debug.txt' if($asdfasdf ==1);
 	my @in = @_;
 	my %hash = undef;
-	my @AUX = ();
-	my @sort = ();
+	my @AUX = undef;
+	my @sort = undef;
 	for($i = 0; $i < $#in; $i = $i + 2){
 		my $reg = $in[$i+1];
 		push @{$hash{$reg}}, $in[$i];
+print W3 "$reg / $i / $#in\n";
 	}
 	for my $num (keys %hash){
-		my $i = 0;
-		for(@{$hash{$num}}){ $i++; }
-		if ($i < 2){ $AUX[$num]++;  } else { $AUX[$num] += $i; }
+		if($num != undef){
+			my $i = 0;
+			for(@{$hash{$num}}){ $i++; }
+			@{$hash{$num}} = sort (@{$hash{$num}});
+			if ($i < 2){ $AUX[$num]++;  } else { $AUX[$num] += $i; }
+		}
 	}
 	for my $i (1..$#AUX){ $AUX[$i] += $AUX[$i-1] ; }
 	for my $i (keys %hash){
@@ -186,8 +188,11 @@ sub cs {
 			my $reg = $AUX[$i] - 1;
 			$sort[$reg] = $value;
 			$AUX[$i]--;
+# print W3 "reg=$reg\n";
 		}
 	}
-	shift @sort;
+	print W3 "$_\n" for(@sort);
+	# shift @sort;  #don't know why have a undef value at sort[0]
 	return reverse @sort;
+close (W3) if ($asdfasdf==1);
 }
