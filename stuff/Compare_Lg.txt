@@ -1,0 +1,36 @@
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=5, Lg=20, metetial=Si, SD doping=5e17
+Best Vt:0.6542
+Best sslope:70.48
+Ratio = 9014028681.14801
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=5, Lg=30, metetial=Si, SD doping=5e17
+Best Vt:0.7043
+Best sslope:62.30
+Ratio = 410536159600.997
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=5, Lg=40, metetial=Si, SD doping=5e17
+Best Vt:0.7254
+Best sslope:40.06*
+Ratio = 2331917700006.52
+Current type: GAA, R=7, D=2, nm=1e-3, Tox=5, Lg=50, metetial=Si, SD doping=5e17
+Best Vt:0.7395
+Best sslope:61.29
+Ratio = 4868039723327.79
+
+
+
+
+Current type: SC, R=7, D=2, nm=1e-3, Tox=5, Lg=20, metetial=Si, SD doping=5e17
+Best Vt:0.4556
+Best sslope:89.98
+Ratio = 842114.520539183
+Current type: SC, R=7, D=2, nm=1e-3, Tox=5, Lg=30, metetial=Si, SD doping=5e17
+Best Vt:0.5503
+Best sslope:77.68
+Ratio = 77776020.048555
+Current type: SC, R=7, D=2, nm=1e-3, Tox=5, Lg=40, metetial=Si, SD doping=5e17
+Best Vt:0.6122
+Best sslope:69.18
+Ratio = 3206853993.85781
+Current type: SC, R=7, D=2, nm=1e-3, Tox=5, Lg=50, metetial=Si, SD doping=5e17
+Best Vt:0.6426
+Best sslope:58.32
+Ratio = 36350693069.3069

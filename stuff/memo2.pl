@@ -2,10 +2,10 @@ use Math::Complex;
 system("cls");
 print "Date: "; chomp ($date = <>);
 
-my @oldss = glob "SSlope_*.txt";
-$i = 0;
-for(@oldss){ if($_ =~ /.+\_(\d+)/){ $i++; } }
-open W2, ">SSlope_$i.txt";
+# my @oldss = glob "SSlope_*.txt";
+# $i = 0;
+# for(@oldss){ if($_ =~ /.+\_(\d+)/){ $i++; } }
+# open W2, ">SSlope_$i.txt";
 
 @old = glob "$date*.txt";
 $i = 0;
@@ -20,7 +20,7 @@ system("cls");
 	print "enter:";
 	chomp($menu = <>);
 	if($menu == 1){	 &parameter; 	}
-	elsif($menu == 2){ &count; }
+	elsif($menu == 2){ &sslope; }
 	else { close(W2); last;}
 }
 
@@ -37,16 +37,16 @@ sub parameter{
 		system("clear");	system("cls");
 		print "Type: $type, R=$r, Tox=$tox, Lg=$lg, metetial=$meterial\n";
 		print "\tD=$d, nm=$nm, SD doping=$SD_doping\n";
-		print "Best and 2th Vt: ";
+		print "Vt at 1.0 Vd: ";
 		chomp($vt = <>);	@vt = split ' ', $vt;
 		print "Best and 2th sslope: ";
-		chomp($sslope = <>);	@sslope = split ' ', $sslope;
+		chomp($sslope = <>);	if($sslope eq '1'){ $sslope = &sslope; }
 		print "Ion and Ioff: ";
-		chomp($Iin = <>);	@Iin = split ' ', $Iin;
+		chomp($Iin = <>);	$ratio = &ratio($Iin);
 		print "output to $date\_$i.txt? ";	chomp($out = <>);
 		if($out == 1){ 
 			print W "Current type: $type, R=$r, D=$d, nm=$nm, Tox=$tox, Lg=$lg, metetial=$meterial, SD doping=$SD_doping\n";
-			print W "Best Vt:$vt[0], $vt[1]\nBest sslope:\nIon=$Iin[0], Ioff=$Iin[1]\n";
+			print W "Best Vt:$vt\nBest sslope:$sslope\nRatio = $ratio\n";
 		}
 		print "Exit?"; chomp($exit = <>); goto MENU if ($exit == 1);
 		system("clear");	system("cls");
@@ -61,15 +61,15 @@ sub parameter{
 		print "New meterial: ";		chomp ($nmeterial = <>);	if($nmeterial ne ''){ $meterial = $nmeterial; }
 	}
 }
-sub count{
+sub sslope {
 	my $i = 1;
 	my $idin = 1;
 	my @final = ();
 	my $total = 0;
 	my @idin = ();
-	print "Type & imfo:";
-	chomp(my $enter = <>);
-	print W2 "$enter\n";
+	# print "Type & imfo:";
+	# chomp(my $enter = <>);
+	# print W2 "$enter\n";
 	while($idin != ''){
 		print "Id$i: ";chomp($idin = <>);
 		push @idin, $idin if($idin ne '');
@@ -82,5 +82,14 @@ sub count{
 	my $j = 0;
 	for(@final){ $total += $_; $j++; }
 	$total = $total / $j;
-	print W2 "SSlope = $total\n";
+	return $total;
 }
+sub ratio {
+	my @in = split ' ', shift;
+	my @a = map {
+		my @b = split 'e', $_;
+		$_ = $b[0] * (10 ** $b[1]);
+	} @in;
+	my $ans = $a[0] / $a[1];
+	return $ans;
+};
