@@ -1,4 +1,4 @@
-#!/bin/usr/perl -w
+#!/usr/bin/perl -w
 my %provisions = (
 	'The Skipper' => [qw/bule_shirt hat jaket preserver sunscreen/],
 	'The professor' => [qw/sunscreen water_bottle slide_rule batteries radio/],
