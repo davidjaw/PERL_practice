@@ -29,14 +29,14 @@ sub view{
 		open (F, "$filename") || die "$!\n";
 		my @infile = <F>;
 		close (F);
-		@file = map {
+		@file = grep {
 			chop $_;
 			chomp $_;
 			$_ =~ s/\<.{1,300}?\>//g; 	#去標籤
 			$_ =~ s/^\d+$//g;         	#delete all num
 			$_ =~ s/^\w+$//g;    		#delete 純單字行
 			$_ = lc $_;
-			if ($_ ne '') { $_; } else { (); }
+			$_ ne '';
 		} @infile;
 		grab($filename, \@file);
 	}
@@ -54,14 +54,14 @@ sub grab {
 	my @file_key = @$file_ref;
 	my @delete = qw/used further user where case any between has have been other this said each least another one are may might also which not can for the figs that with from and/;
 	print "loading file: $filename .....  $i / ",$#file_name+1,"\n";
-	@voc_done = map {                                                # @voc = map {
-		$_ =~ s/\W//g;                                               # my $i = 0;
-		$_ =~ s/^.{1,2}$//g;   #1-2個長度之單字刪除                  # $_ =~ s/\d//g;
-		if($_ ne ''){ $_; } else { (); }                             # while ($_ =~ /\s/g){ $i++; }
-	} map {                                                          # if($i > 3) { $_; } else { (); }
-		my $i = 0;                                                   # } @file_key;
-		$_ =~ s/\d//g;	#數字刪除
-		while ($_ =~ /\s/g){ $i++; }		#該行空白大於三個再存入voc中
+	@voc_done = grep {
+		$_ =~ s/\W//g;
+		$_ =~ s/^.{1,2}$//g;
+		$_ ne '';
+	} map {
+		my $i = 0;
+		$_ =~ s/\d//g;
+		while ($_ =~ /\s/g){ $i++; }
 		if($i > 3) { split ' ', $_; } else { (); }
 	} @file_key;
 	for(@voc_done){ $voc_compare{$_}++; }
@@ -75,14 +75,14 @@ THREE:
 		my $comparement = $compare[$_];
 		for my $line(@$file_ref){
 			if($length_space == 0 && $control < 10){
-				while ($line =~ /$comparement/g){ 
+				while ($line =~ /$comparement/g){
 					my $reg = $&;
 					my $cheak = 0;
-					$keyword{$reg}++; 
-					for(@ck){ if($reg eq $_){ $cheak++; } }
-					for(@delete){ if($reg eq $_){ $cheak++; } }
+					$keyword{$reg}++;
+					for(@ck){ $cheak++ if($reg eq $_); }
+					for(@delete){ $cheak++ if($reg eq $_); }
 					push @ck, $reg;
-					if($cheak == 0){ $control++; }
+					$control++ if($cheak == 0);
 				}
 			}
 			elsif ($length_space == 1){
@@ -111,15 +111,14 @@ goto THREE unless($length_space == 3);
 	# build database
 	for my $i (0..149){
 		my $voc = $compare[$i];
-		push @{$hash->{$voc}{'filename'}}, $filename;
-		print W2 "$voc\:\:";
-		for (0..149){ 
-			unless ($_ == $i ){ 
-				# unless ($compare[$_] =~ /\s/){ 
-					my $reg = $compare[$_]; $hash->{$voc}{'relate'}{$reg} ++; 
-				# } 
-			} 
-		} #print W03 "$voc\:\:$compare[$_]\n";
+		if($voc ne ''){
+			push @{$hash->{$voc}{'filename'}}, $filename;
+			print W2 "$voc\:\:";
+			for (0..149){
+				my $reg = $compare[$_];
+				$hash->{$voc}{'relate'}{$reg} ++ unless ($_ == $i );
+			}
+		}
 	}
 	$i++;
 }
@@ -131,11 +130,11 @@ print "print section\n";
 	#shown_times part                                            #hash->{$voc}{'filename'}	所含之檔名
 	my @unsort_ST = ();                                          #hash->{$voc}{'ST'}		出現次數
 	for(@st){ $hash->{$_}{'ST'} ++; }
-	for my $voc (keys %$hash){
-		my $reg = $hash->{$voc}{'ST'};
-		push @unsort_ST, $voc; push @unsort_ST, $reg;
-	}
-	@sort_keyword = &cs(@unsort_ST);
+	@unsort_ST = map {
+		my $reg = $hash->{$_}{'ST'};
+		($_, $reg);
+	} keys %$hash;
+	@sort_keyword = cs(@unsort_ST);
 	#relate part
 	print "relate part\n";
 	for my $voc (@sort_keyword){
@@ -164,7 +163,6 @@ print "print section\n";
 	close(W);
 }
 sub cs {
-open W3, '>debug.txt' if($asdfasdf ==1);
 	my @in = @_;
 	my %hash = undef;
 	my @AUX = undef;
@@ -172,7 +170,6 @@ open W3, '>debug.txt' if($asdfasdf ==1);
 	for($i = 0; $i < $#in; $i = $i + 2){
 		my $reg = $in[$i+1];
 		push @{$hash{$reg}}, $in[$i];
-print W3 "$reg / $i / $#in\n";
 	}
 	for my $num (keys %hash){
 		if($num != undef){
@@ -184,15 +181,11 @@ print W3 "$reg / $i / $#in\n";
 	}
 	for my $i (1..$#AUX){ $AUX[$i] += $AUX[$i-1] ; }
 	for my $i (keys %hash){
-		for my $value (@{$hash{$i}}){
+		for my $key (@{$hash{$i}}){
 			my $reg = $AUX[$i] - 1;
-			$sort[$reg] = $value;
+			$sort[$reg] = $key;
 			$AUX[$i]--;
-# print W3 "reg=$reg\n";
 		}
 	}
-	print W3 "$_\n" for(@sort);
-	# shift @sort;  #don't know why have a undef value at sort[0]
 	return reverse @sort;
-close (W3) if ($asdfasdf==1);
 }
