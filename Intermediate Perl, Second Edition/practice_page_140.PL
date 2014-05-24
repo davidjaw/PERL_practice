@@ -8,3 +8,12 @@ my @input = (
 	"aaaa 2dd",
 );
 for(@input){ say $1 if($_ =~ $pattern); }
+
+# when you use '()', $& won't care if there's any word inside '()'
+# and if you put ?: inside '()', the $1 won't be at here↓ but at  ↓
+#												 qr/(?:\w+)?\s\d(\w+)/;
+# output:
+# 212fff
+# second
+# first
+# dd
