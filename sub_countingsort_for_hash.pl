@@ -1,25 +1,12 @@
-#!/bin/user/perl-w
-%hash = (
-	"a" =>1,
-	"b" =>1,
-	"c" =>2,
-	"d" =>1,
-	"e" =>5,
-	"f" =>7,
-	"g" =>1,
-	"h" =>2,
-	'aaa$a#b!'=>3,
-);
-@out = cs(\%hash);
-print "After sort:\n";
-print "$_ " for (@out);
-
+#!/usr/bin/perl -w
+use v5.18.2;
 sub cs {
 	my $in_ref = shift;
 	my @in = %$in_ref;
 	my %hash;
 	my @AUX;
-	for($i = 0; $i < $#in; $i = $i + 2){
+	my @sort;
+	for(my $i = 0; $i < $#in; $i = $i + 2){
 		push @{$hash{$in[$i+1]}}, $in[$i];
 	}
 	for my $num (keys %hash){

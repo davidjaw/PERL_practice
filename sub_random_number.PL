@@ -1,8 +1,7 @@
 #!usr/bin/perl
-use v5.018;
+use v5.18.2;
 sub random {
-	my $maxnum = shift;
-	my $amount = shift;
+	my ($maxnum, $amount) = @_;
 	my %mark;
 	$amount = 1 if($amount == undef);
 	$maxnum = 100 if($maxnum == undef);
