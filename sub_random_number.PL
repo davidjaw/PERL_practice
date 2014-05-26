@@ -1,5 +1,5 @@
 #!usr/bin/perl
-use v5.18.2;
+use v5.018;
 sub random {
 	my $maxnum = shift;
 	my $amount = shift;
@@ -11,6 +11,5 @@ sub random {
 		while($mark{$num} == defined){ $num = int ( rand $maxnum); }
 		$mark{$num}++;
 	}
-	my @out = map $_, keys %mark;
-	return @out;
+	return map $_, keys %mark;
 }
