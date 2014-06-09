@@ -1,6 +1,7 @@
 use v5.18.2;
 use LWP::UserAgent;   ##perl中用来处理网页请求的模块
 use Encode;   ##添加处理中文的模块
+use Text::Iconv;
 
 my $ua = LWP::UserAgent->new();
 $ua->timeout(10);
@@ -22,19 +23,24 @@ for(keys %list){ $total++; }
 # content part
 # http://www.d586.com/gaoshoujimowojitianyi/
 my $current = 1;
+my $c = 0;
 for my $num(sort keys %list){
 	say "$current / $total";
 	my $filename;
 	if($current < 10){ $filename = '00'.$current.$list{$num}; }
 	elsif($current < 100){ $filename = '0'.$current.$list{$num}; }
 	else{ $filename = $current.$list{$num}; }
-	goto SKIP if -e "$filename'txt";
+	my $reg = $filename;
+	Encode::from_to($filename, "gbk", "big5");
+	$filename = $reg if $filename =~ /\?/;
+	say $filename;
+	goto SKIP if -e "$filename.txt";
 	open W, ">$filename.txt";
 	my $url = 'http://www.d586.com/gaoshoujimowojitianyi/'.$num.'/';
 	$r = $ua->get($url);
 	$string = $r->{'_content'};
 	my $form = qr/&nbsp;&nbsp;&nbsp;&nbsp;/;
-	my @novel = map {
+	my @novel = map {		# @novel has only three element: topic, content, endding.
 		$_ =~ s/\r//g;
 		if($_ =~ /$form/){
 			$_ =~ s/\<.{1,10000}?\>//g;
@@ -44,6 +50,9 @@ for my $num(sort keys %list){
 	} split '\n', $string;
 	print W @novel;
 	close (W);
-	$current++;
+	$c++;
 	SKIP:
+	$current++;
 }
+say 'done!';
+my $a = <>;

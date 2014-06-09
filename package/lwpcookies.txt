@@ -1,0 +1,2 @@
+#LWP-Cookies-1.0
+Set-Cookie3: __cfduid=d024329e9791246cd329e1885817f48751402301591178; path="/"; domain=.komica.org; path_spec; expires="2019-12-23 23:50:00Z"; HttpOnly; version=0
