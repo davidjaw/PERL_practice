@@ -1,7 +1,8 @@
 use v5.18.2;
 use LWP::UserAgent;   ##perl中用来处理网页请求的模块
 use Encode;   ##添加处理中文的模块
-use Text::Iconv;
+use File::Copy;
+require dav_trans;
 
 my $ua = LWP::UserAgent->new();
 $ua->timeout(10);
@@ -54,5 +55,7 @@ for my $num(sort keys %list){
 	SKIP:
 	$current++;
 }
+say 'uncoding.........';
+dav_trans::trans();
 say 'done!';
 my $a = <>;
