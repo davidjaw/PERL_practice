@@ -1,21 +1,21 @@
 ###################################
-#     ┌┐      ┌┐
-#    ┌┘┴──────┘┴┐
-#    │      ─   │
-#    │  ┬┘  └┬  │
-#    │          │
-#    │  **  ┴  *│
-#    └─┐    ┌───┘
-#      │    │
-#      │    └─────────────┐
-#      │                  │
-#      │                  ├┐
-#      │                  ┌┘
-#      └─┐ ┐ ┌──────┐ ┐ ┌─┘
-#        │ │ │      │ │ │
-#        │ ┤ ┤      │ ┤ ┤
-#        └─┴─┘      └─┴─┘
-#     神獸保佑    程式不Bug
+#     ┌┐      ┌┐                  #
+#    ┌┘┴──────┘┴┐                 #
+#    │      ─   │                 #
+#    │  ┬┘  └┬  │                 #
+#    │          │                 #
+#    │  **  ┴  *│                 #
+#    └─┐    ┌───┘                 #
+#      │    │                     #
+#      │    └─────────────┐       #
+#      │                  │       #
+#      │                  ├┐      #
+#      │                  ┌┘      #
+#      └─┐ ┐ ┌──────┐ ┐ ┌─┘       #
+#        │ │ │      │ │ │         #
+#        │ ┤ ┤      │ ┤ ┤         #
+#        └─┴─┘      └─┴─┘         #
+#     神獸保佑    程式不Bug       #
 ###################################
 use Tk;
 use v5.18.2;
@@ -52,6 +52,7 @@ my $right_frame = $main_frame->Frame(-background => 'yellow')->pack(-side => 'ri
 		sub clear{
 			say 'CLEAR pressed.';
 			$right_text->delete('0.0', 'end');
+			$mw->messageBox(-message => 'Text ClEaR! ', -type => 'ok');
 		}
 
 MainLoop;
@@ -61,5 +62,7 @@ sub submit {
 	my $string_1 = $left_top_entry->get(); say "get string1: $string_1";
 	my $string_2 = $left_mid_entry->get(); say "get string2: $string_2";
 	my $string_3 = $left_bottom_entry->get(); say "get string3: $string_3";
-	$right_text->insert("end", "Num1:$string_1, Num2:$string_2, Num3:$string_3\n");
+	my $press_YN = $mw->messageBox(-message => "Submit $string_1, $string_2, $string_3?", -type => 'yesno', -icon => 'question');
+	say "Pressed: $press_YN";
+	$right_text->insert("end", "Num1:$string_1, Num2:$string_2, Num3:$string_3\n") if $press_YN eq "Yes";
 }
