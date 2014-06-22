@@ -27,8 +27,7 @@ my @log;
 my $mw = MainWindow->new();
 $mw->geometry("320x300");
 $mw->title("Calculator");
-# $mw->resizable(0,0);  # 禁止調整大小
-
+$mw->resizable(0,0);  # 禁止調整大小
 
 my $font = $mw->fontCreate( -size => '10');
 
@@ -51,53 +50,89 @@ my $button_frame = $mw->Frame(-background=>'green', -height=>'241', -width=>'321
 		my $button_7 = 		$button_top->Button(-height=>'3', -width=>'8', -text => "7", -font=>"$font", -command => [\&button_pressed, '7'	])->pack(-side => 'left');
 		my $button_8 = 		$button_top->Button(-height=>'3', -width=>'8', -text => "8", -font=>"$font", -command => [\&button_pressed, '8'	])->pack(-side => 'left');
 		my $button_9 = 		$button_top->Button(-height=>'3', -width=>'8', -text => "9", -font=>"$font", -command => [\&button_pressed, '9'	])->pack(-side => 'left');
-		my $button_dev = 	$button_top->Button(-height=>'3', -width=>'8', -text => "*", -font=>"$font", -command => [\&button_pressed, 'dev'	])->pack(-side => 'left');
+		my $button_dev = 	$button_top->Button(-height=>'3', -width=>'8', -text => "*", -font=>"$font", -command => [\&button_pressed, '*'	])->pack(-side => 'left');
 	my $button_mid1 = $button_frame->Frame(-background=>'green', -height=>'60', -width=>'80')->pack(-side=>'top');
 		my $button_4 = 		$button_mid1->Button(-height=>'3', -width=>'8', -text => "4", -font=>"$font", -command => [\&button_pressed, '4'	])->pack(-side => 'left');
 		my $button_5 = 		$button_mid1->Button(-height=>'3', -width=>'8', -text => "5", -font=>"$font", -command => [\&button_pressed, '5'	])->pack(-side => 'left');
 		my $button_6 = 		$button_mid1->Button(-height=>'3', -width=>'8', -text => "6", -font=>"$font", -command => [\&button_pressed, '6'	])->pack(-side => 'left');
-		my $button_time = 	$button_mid1->Button(-height=>'3', -width=>'8', -text => "/", -font=>"$font", -command => [\&button_pressed, 'time'])->pack(-side => 'left');
+		my $button_time = 	$button_mid1->Button(-height=>'3', -width=>'8', -text => "/", -font=>"$font", -command => [\&button_pressed, '/'])->pack(-side => 'left');
 	my $button_mid2 = $button_frame->Frame(-background=>'green', -height=>'60', -width=>'80')->pack(-side=>'top');
 		my $button_1 = 		$button_mid2->Button(-height=>'3', -width=>'8', -text => "1", -font=>"$font", -command => [\&button_pressed, '1'	])->pack(-side => 'left');
 		my $button_2 = 		$button_mid2->Button(-height=>'3', -width=>'8', -text => "2", -font=>"$font", -command => [\&button_pressed, '2'	])->pack(-side => 'left');
 		my $button_3 = 		$button_mid2->Button(-height=>'3', -width=>'8', -text => "3", -font=>"$font", -command => [\&button_pressed, '3'	])->pack(-side => 'left');
-		my $button_minu = 	$button_mid2->Button(-height=>'3', -width=>'8', -text => "-", -font=>"$font", -command => [\&button_pressed, 'minu'])->pack(-side => 'left');
+		my $button_minu = 	$button_mid2->Button(-height=>'3', -width=>'8', -text => "-", -font=>"$font", -command => [\&button_pressed, '-'])->pack(-side => 'left');
 	my $button_bottom = $button_frame->Frame(-background=>'green', -height=>'60', -width=>'80')->pack(-side=>'top');
-		my $button_ac = 	$button_bottom->Button(-height=>'3', -width=>'8', -text => "AC", -font=>"$font", -command => [\&button_pressed, 'ac'	])->pack(-side => 'left');
+		my $button_ac = 	$button_bottom->Button(-height=>'3', -width=>'8', -text => "AC", -font=>"$font", -command => [\&button_pressed, 'ac'])->pack(-side => 'left');
 		my $button_0 = 		$button_bottom->Button(-height=>'3', -width=>'8', -text => "0",  -font=>"$font", -command => [\&button_pressed, '0'	])->pack(-side => 'left');
-		my $button_eq = 	$button_bottom->Button(-height=>'3', -width=>'8', -text => "=",  -font=>"$font", -command => [\&button_pressed, 'eq'	])->pack(-side => 'left');
-		my $button_pls = 	$button_bottom->Button(-height=>'3', -width=>'8', -text => "+",  -font=>"$font", -command => [\&button_pressed, 'pls'	])->pack(-side => 'left');
+		my $button_eq = 	$button_bottom->Button(-height=>'3', -width=>'8', -text => "=",  -font=>"$font", -command => [\&button_pressed, 'eq'])->pack(-side => 'left');
+		my $button_pls = 	$button_bottom->Button(-height=>'3', -width=>'8', -text => "+",  -font=>"$font", -command => [\&button_pressed, '+'	])->pack(-side => 'left');
 
 sub button_pressed{
 	my $pressed_button = shift;
-	if($pressed_button ne 'ac'){
-		push @log, $pressed_button unless($#log == 0 && $pressed_button == 0);
-		say "@log";
-	} else {
+	unless($pressed_button eq 'ac' || $pressed_button eq 'eq'){
+		if($pressed_button+0 ne $pressed_button){ # 非數字
+			my $last;
+			my $string = join '', @log;
+			$last = $log[-1] unless (@log == 0);
+			unless($last eq $pressed_button || $last+0 eq $last){
+				$log[-1] = $pressed_button unless (@log == 0);
+				$text_top->delete('0.0', 'end');
+				$text_top->insert('@0,0', "$string");
+			} else {
+				push @log, $pressed_button;
+				my $string = join '', @log;
+				$text_top->delete('0.0', 'end');
+				$text_top->insert('@0,0', "$string");
+			}
+		} else {
+			push @log, $pressed_button;
+			my $string = join '', @log;
+			$text_top->delete('0.0', 'end');
+			$text_top->insert('@0,0', "$string");
+		}
+	} elsif($pressed_button eq 'ac') {
 		@log = ();
 		$text_top->delete('0.0', 'end');
 		$text_bottom->delete('0.0', 'end');
 		$text_top->insert('@0,0', "0");
 		$text_bottom->insert('@0,0', "0");
+	} elsif($pressed_button eq 'eq') {
+		my $cont = join '', @log;
+		my @each;
+		while($cont =~ /(\d+(?:\W*))/g){
+			my $reg = $1;
+			if($reg =~ /(\d+)(\W)/){ push @each, ($1 , $2);
+			} else { push @each, $reg; }
+		}
+		my $sign = 0;
+		JUMP:
+		@each = grep $_ ne '', @each;
+		for my $num(0..$#each){
+			my $reg = \$each[$num];
+			if($sign){
+				if($$reg eq '+' || $$reg eq '-'){ 
+					$$reg = $each[$num-1] + $each[$num+1] if($$reg eq '+');
+					$$reg = $each[$num-1] - $each[$num+1] if($$reg eq '-');
+					$each[$num-1] = '';
+					$each[$num+1] = '';
+					goto JUMP;
+				}
+			} else {
+				if($$reg eq '*' || $$reg eq '/'){ 
+					$$reg = $each[$num-1] * $each[$num+1] if($$reg eq '*');
+					$$reg = $each[$num-1] / $each[$num+1] if($$reg eq '/');
+					$each[$num-1] = '';
+					$each[$num+1] = '';
+					goto JUMP;
+				}
+			}
+		}
+		$sign++;
+		goto JUMP unless($sign > 1);
+		@log = ();
+		my $string = join '', @each;
+		$text_bottom->delete('0.0', 'end');
+		$text_bottom->insert('@0,0', "$string");
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 MainLoop;

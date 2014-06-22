@@ -50,7 +50,7 @@ my $body_right = $body_wd->Frame(-background => 'white', -width => '450', -heigh
 ##############################################################################################
 my $bottom_frame = $mw->Frame(-height => 400, -width => '300', -background=>'black')->pack(-side=>'top', -fill=>'y');
 my $scroll = $bottom_frame->Scrollbar();
-my $text = $bottom_frame->Text(-background => 'black', -foreground => 'green', -yscrollcommand => ['set', $scroll]);
+my $text = $bottom_frame->ROText(-background => 'black', -foreground => 'green', -yscrollcommand => ['set', $scroll]);
 $scroll->configure(-command => ['yview', $text]);
 $scroll->pack(-side => "right", -expand => "no", -fill => "y");
 $text->pack();
