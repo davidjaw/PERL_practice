@@ -9,7 +9,7 @@ while(1){
 	system('cls');
 	say '1: 查看紀錄';
 	say '2: 記帳';
-	say '3: 查找日期';
+	say '3: 查找類別';
 	print 'Enter: ';
 	my $enter = <>;
 	if($enter+0 == 1){ &load;
@@ -101,17 +101,22 @@ sub date_search {
 	while(<R>){
 		if($_ =~ /(\S+?)::(\S+?)::(\S+)::(.+)/){
 			push @{$ref->{$1}}, "$1 : $2\t$3\t$4";
-			$cost->{cost} += $3;
-			$cost->{$1}{cost} += $3;
+			$cost->{$1}{$2} += $3;
 		}
 	}
+	print "查詢類別：\n",
+	" 1. 食物 \n",
+	" 2. 生活 \n",
+	" 3. 娛樂 \n",
+	" 4. 其他 \n",
+	"Enter: ";
+	my $search = <>;
+	if($search == 1){ $search = "食物"; }  elsif ($search == 2) { $search = "生活"; } 
+	elsif ($search == 3) { $search = "娛樂"; }  elsif($search == 4) { $search = "其他"; } 
+	else { return 1; }
 	for my $date (sort keys %$ref){
-		for(@{$ref->{$date}}){
-			say $_;
-		}
-		$cost->{days} ++;
-		say "  該日花費: ", $cost->{$date}{cost}, "元\n";
+		for(@{$ref->{$date}}){ say $_ if $_ =~ /$search/; }
+		say "$date $search cost: $cost->{$date}{$search}\n" if $cost->{$date}{$search} > 0;
 	}
-	print "\n\t", 'Average daily cost: ', $cost->{cost} / $cost->{days}, ' NT ';
 	my $pause = <>;
 }
